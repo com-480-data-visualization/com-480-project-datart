@@ -1,7 +1,13 @@
 FRENCH POPULATION : 
 
 - evolution of the french population : https://www.data.gouv.fr/fr/datasets/population/ TO PRECISE, LINK NOT DIRECTLY VALID 
-- evolution of the french revenues (per region or per commmune) 2004-2018 : https://www.data.gouv.fr/fr/datasets/l-impot-sur-le-revenu-par-collectivite-territoriale/#_
+				_ gender and age per region : https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/regions-departements/
+				_ gender and age per department : https://www.insee.fr/fr/statistiques/1893198
+				_ revenue per region 1994-2015 : https://www.insee.fr/fr/statistiques/2043717#consulter
+
+- evolution of the french tax on revenue (per region or per commmune) 2004-2018 : https://www.data.gouv.fr/fr/datasets/l-impot-sur-le-revenu-par-collectivite-territoriale/#_
+
+
 FRENCH ELECTION : 
 
 - french presidential election 2002-2017 by circonscription/or region : https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
