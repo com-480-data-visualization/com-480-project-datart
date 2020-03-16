@@ -1,10 +1,10 @@
 # Project of Data Visualization (COM-480)
 
-**| Student's name | SCIPER |** <br />
-<br />
-| Bensoussan Jérémy | 269502 | <br />
-| Zhou Xiao | 294916 | <br />
-| Abdeljalil Moussa | 250755 | <br />
+| Student's name    | SCIPER |
+| ----------------- | ------ |
+| Bensoussan Jérémy | 269502 |
+| Zhou Xiao         | 294916 |
+| Abdeljalil Moussa | 250755 |
 
 
 [Milestone 1](#milestone-1-friday-3rd-april-5pm) • [Milestone 2](#milestone-2-friday-1st-may-5pm) • [Milestone 3](#milestone-3-thursday-28th-may-5pm)
