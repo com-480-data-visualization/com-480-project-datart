@@ -26,7 +26,7 @@ regio2017 = pd.read_excel('Presidentielle_2017_1.xls', sheet_name = 1)
 regio2012 = pd.read_excel('Presidentielle_2012_1&2.xls',  sheet_name = 1)
 regio2007 = pd.read_excel('Presidentielle_2007_1&2.xls', sheet_name = 1)
 regio2002 = pd.read_excel('Presidentielle_2002_1&2.xls', sheet_name = 1)
-regioArray = [regio2012,regio2007,regio2012]
+regioArray = [regio2012,regio2007,regio2002]
 
 #processing 2017
 regionCodeAndName = regio2017[regio2017.columns[0:1]]
@@ -60,9 +60,9 @@ finalDataset["Parti"] = None
 
 #2nd candidate 2017
 finalDataset["SecondScore"] = regio2017.iloc[ : , twoBest[1]]
-finalDataset["Surname2"] = regio2017.iloc[:,twoBest[1]-4]
-finalDataset["Name2"] = regio2017.iloc[:,twoBest[1]-3]
-finalDataset["Parti2"] = None
+finalDataset["Surname27"] = regio2017.iloc[:,twoBest[1]-4]
+finalDataset["Name27"] = regio2017.iloc[:,twoBest[1]-3]
+finalDataset["Parti27"] = None
 
 #-------------------------------------------------------------------------------------
 #preprocessing 2002 - 2012
@@ -70,102 +70,106 @@ regioList = regio2017.iloc[:,0]
 oldRegioList = regio2012.iloc[:,0]
 
 
-#for regioYear in regioArray:
-for i in range(0,len(regioList)):
-    if isinstance(dicoRegion[regioList[i]],int): #IF REGION DIDNT CHANGE
-        temp = []
-        twoBest = []
-        col = 18  # first result column
-        while col < len(regio2012.columns):
-            temp.append(regio2012.iloc[i, col])
-            col += 6  # shift between two result
-        twoBest.append(18 + 6 * temp.index(max(temp)))
-        temp[temp.index(max(temp))] = 0
-        twoBest.append(18 + 6 * temp.index(max(temp)))
+for y,regioYear in enumerate(regioArray):
+    year = "Year" + str(y)
+    print(regioYear)
+    finalDataset[year] = str(y)
+    for i in range(0,len(regioList)):
+        if isinstance(dicoRegion[regioList[i]],int): #IF REGION DIDNT CHANGE
+            temp = []
+            twoBest = []
+            col = 18  # first result column
+            while col < len(regioYear.columns):
+                temp.append(float(regioYear.iloc[i, col]))
+                col += 6  # shift between two result*
 
-        # 1st candidate
-        firstScore = "FirstScore"+ "0"
-        finalDataset.loc[i,firstScore] = regio2012.iloc[i, twoBest[0]]
+            twoBest.append(18 + 6 * temp.index(max(temp)))
+            temp[temp.index(max(temp))] = 0
+            twoBest.append(18 + 6 * temp.index(max(temp)))
 
-        surname =  "Surname"+ "0"
-        finalDataset.loc[i,surname] = regio2012.iloc[i, twoBest[0] - 4]
+            # 1st candidate
+            firstScore = "FirstScore"+ str(y)
+            finalDataset.loc[i,firstScore] = regioYear.iloc[i, twoBest[0]]
 
-        name = "Name"+ "0"
-        finalDataset.loc[i,name] = regio2012.iloc[i, twoBest[0] - 3]
+            surname =  "Surname"+ str(y)
+            finalDataset.loc[i,surname] = regioYear.iloc[i, twoBest[0] - 4]
 
-        parti = "Parti" + "0"
-        finalDataset[parti] = None
+            name = "Name"+ str(y)
+            finalDataset.loc[i,name] = regioYear.iloc[i, twoBest[0] - 3]
 
-        # 2nd candidate
-        secondScore = "Second Score" +  "0"
-        finalDataset.loc[i,secondScore] = regio2012.iloc[i, twoBest[1]]
+            parti = "Parti" + str(y)
+            finalDataset[parti] = None
 
-        surname2 = "Surname2" + "0"
-        finalDataset.loc[i,surname2] = regio2012.iloc[i, twoBest[1] - 4]
+            # 2nd candidate
+            secondScore = "Second Score" +  str(y)
+            finalDataset.loc[i,secondScore] = regioYear.iloc[i, twoBest[1]]
 
-        name2 = "Name2"+ "0"
-        finalDataset.loc[i,name2] = regio2012.iloc[i, twoBest[1] - 3]
+            surname2 = "Surname2" + str(y)
+            finalDataset.loc[i,surname2] = regioYear.iloc[i, twoBest[1] - 4]
 
-        parti2 = "Parti2" + "0"
-        finalDataset[parti2] = None
+            name2 = "Name2"+ str(y)
+            finalDataset.loc[i,name2] = regioYear.iloc[i, twoBest[1] - 3]
 
-    else:
-        index = []
-        for regioCode in dicoRegion[regioList[i]]: #Find index in 2012 file of the region to merge
-            for j in range(0,len(oldRegioList)):
-                if oldRegioList[j] == regioCode:
-                    index.append(j)
-        sumExpressed = 0
-        for ind in index:
-            sumExpressed += regio2012.loc[ind,"Exprimés"]
+            parti2 = "Parti2" + str(y)
+            finalDataset[parti2] = None
 
-        col = 16
-        votePerCandidates = []
-        twoBest = []
-        while col < len(regio2012.columns):
-            temp = 0
+        else:
+            index = []
+            for regioCode in dicoRegion[regioList[i]]: #Find index in 2012 file of the region to merge
+                for j in range(0,len(oldRegioList)):
+                    if oldRegioList[j] == regioCode:
+                        index.append(j)
+            sumExpressed = 0
             for ind in index:
-                temp += regio2012.iloc[ind, col]
+                sumExpressed += regioYear.loc[ind,"Exprimés"]
 
-            votePerCandidates.append(temp/sumExpressed*100)
-            col+=6
+            col = 16
+            votePerCandidates = []
+            twoBest = []
+            while col < len(regioYear.columns):
+                temp = 0
+                for ind in index:
+                    temp += regioYear.iloc[ind, col]
 
-        twoBestScore = []
+                votePerCandidates.append(temp/sumExpressed*100)
+                col+=6
 
-        twoBest.append(16 + 6 * votePerCandidates.index(max(votePerCandidates)))
-        twoBestScore.append(max(votePerCandidates))
+            twoBestScore = []
 
-        votePerCandidates[votePerCandidates.index(max(votePerCandidates))] = 0
+            twoBest.append(16 + 6 * votePerCandidates.index(max(votePerCandidates)))
+            twoBestScore.append(max(votePerCandidates))
 
-        twoBestScore.append(max(votePerCandidates))
-        twoBest.append(16 + 6 * votePerCandidates.index(max(votePerCandidates)))
+            votePerCandidates[votePerCandidates.index(max(votePerCandidates))] = 0
+
+            twoBestScore.append(max(votePerCandidates))
+            twoBest.append(16 + 6 * votePerCandidates.index(max(votePerCandidates)))
 
 
-        # 1st candidate
-        firstScore = "FirstScore"+ "0"
-        finalDataset.loc[i,firstScore] = twoBestScore[0]
+            # 1st candidate
+            firstScore = "FirstScore"+ str(y)
+            finalDataset.loc[i,firstScore] = twoBestScore[0]
 
-        surname =  "Surname"+ "0"
-        finalDataset.loc[i,surname] = regio2012.iloc[i, twoBest[0] - 2]
+            surname =  "Surname"+ str(y)
+            finalDataset.loc[i,surname] = regioYear.iloc[i, twoBest[0] - 2]
 
-        name = "Name"+ "0"
-        finalDataset.loc[i,name] = regio2012.iloc[i, twoBest[0] - 1]
+            name = "Name"+ str(y)
+            finalDataset.loc[i,name] = regioYear.iloc[i, twoBest[0] - 1]
 
-        parti = "Parti" + "0"
-        finalDataset[parti] = None
+            parti = "Parti" + str(y)
+            finalDataset[parti] = None
 
-        # 2nd candidate
-        secondScore = "Second Score" +  "0"
-        finalDataset.loc[i,secondScore] = twoBestScore[1]
+            # 2nd candidate
+            secondScore = "Second Score" +  str(y)
+            finalDataset.loc[i,secondScore] = twoBestScore[1]
 
-        surname2 = "Surname2" + "0"
-        finalDataset.loc[i,surname2] = regio2012.iloc[i, twoBest[1] - 2]
+            surname2 = "Surname2" + str(y)
+            finalDataset.loc[i,surname2] = regioYear.iloc[i, twoBest[1] - 2]
 
-        name2 = "Name2"+ "0"
-        finalDataset.loc[i,name2] = regio2012.iloc[i, twoBest[1] - 1]
+            name2 = "Name2"+ str(y)
+            finalDataset.loc[i,name2] = regioYear.iloc[i, twoBest[1] - 1]
 
-        parti2 = "Parti2" + "0"
-        finalDataset[parti2] = None
+            parti2 = "Parti2" + str(y)
+            finalDataset[parti2] = None
 
 
 
