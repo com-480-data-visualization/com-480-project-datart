@@ -1,0 +1,13 @@
+Bretagne : inchangé
+Corse : inchangé
+Ile de France : inchangé
+PACA : inchangé
+Pays de Loire : inchangé
+Centre Val Loire : inchangé
+Poitou Charentes + Limousin : Nouvelle Acquitaine
+Midi Pyrenées + Languedoc Roussillon : Occitanie
+Nord pas de calais + Picardie = Haute de France
+Auvergne + Rhone Alpes : Auvergne-Rhones Alpes
+Bourgogne + Franche Comté :	 Bourgogne-Franche Comté
+Aslace + Lorraine + Champgne Ardenne: Grand Est
+basse Normandie + Haute Normandie : Normandie
