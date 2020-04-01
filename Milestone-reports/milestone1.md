@@ -19,8 +19,8 @@ One important thing to note which is specific to those datasets is the differenc
 
 We have in total 2 categories of datasets, used in our project to describe the french population :
 
-	- Description of the population based on age (5-year and 119-year age groups) and gender per year and per region/department
-	- Description of the population based on revenue and taxes per year and per region only
+	* Description of the population based on age (5-year and 119-year age groups) and gender per year and per region/department
+	* Description of the population based on revenue and taxes per year and per region only
 
 We obtained this data from a french government agency called "INSEE" (National Institute of statistical and economics studies).
 
@@ -60,13 +60,13 @@ The 2017 dataset is also complete even if some numbers are considered as strings
 After pre-processing our data, we need to explain how our dataframes are built and how much insight do they have.
 So in our case, we have two categories of dataframes :
 
-	- for the population's gender and age : two categorical columns for the "gender" and "region" (or "department") and the rest are integer columns for the number of people in each group (age groups specifically of 5-year range or 19-year range) and the year
-	- for the population's revenu : one categorical column for the "region" and the rest are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
+	* for the population's gender and age : two categorical columns for the "gender" and "region" (or "department") and the rest are integer columns for the number of people in each group (age groups specifically of 5-year range or 19-year range) and the year
+	* for the population's revenu : one categorical column for the "region" and the rest are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
 
 The data used in order to understand the french population using our criterias also contains useful statistical insight : 
 
-	- the size of the first dataframe is :
-	- the size of the second dataframe is :
+	* the size of the first dataframe is :
+	* the size of the second dataframe is :
 
 
 
