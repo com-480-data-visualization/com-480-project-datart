@@ -27,6 +27,9 @@ The preprocessing will need to take care of those specificities to gather every 
 
 <h5> UK population </h5>
 
+The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government. Besides, ethnicity proportion may also be a factor in election, and we.get the statistics in 2011 from UK Office for National Statistics.
+To conclude, for Uk population, we scratch the dataset of ages, gender, revenues, tax and ethnicity in UK regions.
+
 <h3>  PROBLEMATIC:</h3>
 
 <h3>  EXPLORATORY DATA ANALYSIS:</h3>
