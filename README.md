@@ -11,7 +11,7 @@
 
 ## Milestone 1 (Friday 3rd April, 5pm)
 
-Link to the Milestone 1 [here](./Milestone-reports/milestone1.md)
+You can find the report for our Milestone 1 [here](./Milestone-reports/milestone1.md).
 
 **10% of the final grade**
 
