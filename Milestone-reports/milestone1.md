@@ -59,4 +59,7 @@ Otherwise, the dataset is really complete without any missing values.
 
 <h5> UK population</h5>
 
+Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. The ethnicity is more messy but can be reformed in the same way by simple operations including merging and concatenation. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization.
+
+
 <h3>  RELATED WORK:</h3>
