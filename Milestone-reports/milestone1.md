@@ -40,6 +40,10 @@ The preprocessing will need to take care of those specificities to gather every 
 The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government. 
 To conclude, for Uk population, we scratch the dataset of ages, gender, revenues and tax in UK regions.
 
+	* Description of the population by different age ranges and gender per year and per region.
+	* Description of the population by different levels of revenue and taxes per year and per region.
+
+
 <h3>2. PROBLEMATIC: </h3>
 
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
