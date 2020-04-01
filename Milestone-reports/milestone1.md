@@ -17,8 +17,18 @@ One important thing to note which is specific to those datasets is the differenc
 
 <h5> French population</h5>
 
+We have in total 2 categories of datasets, used in our project to describe the french population :
 
-<h4><ins> United Kingdoms part </ins></h4>
+	- Description of the population based on age (5-year and 119-year age groups) and gender per year and per region/department
+	- Description of the population based on revenue and taxes per year and per region only
+
+We obtained this data from a french government agency called "INSEE" (National Institute of statistical and economics studies).
+
+At first, these datasets were splitted by year and some of them were written manually (some of the columns were not aligned). Consequently, we had to clean and pre-process this data in order to group it in one single dataframe (for every category) by creating a "year" column and in the first category a "gender" because it was previously only a header.
+
+Overall, the quality of the data is good because the origin is a well-renowned government agency.
+
+<h4><ins> British Part </ins></h4>
 <h5> UK election</h5>
 
 The dataset describing the results of the UK election is really complete and has the great particularity of being unique. Since every election result is contained in one single file, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
@@ -47,8 +57,20 @@ The 2017 dataset is also complete even if some numbers are considered as strings
 
 <h5> French population</h5>
 
+After pre-processing our data, we need to explain how our dataframes are built and how much insight do they have.
+So in our case, we have two categories of dataframes :
 
-<h4><ins> United Kingdoms part</ins></h4>
+	- for the population's gender and age : two categorical columns for the "gender" and "region" (or "department") and the rest are integer columns for the number of people in each group (age groups specifically of 5-year range or 19-year range) and the year
+	- for the population's revenu : one categorical column for the "region" and the rest are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
+
+The data used in order to understand the french population using our criterias also contains useful statistical insight : 
+
+	- the size of the first dataframe is :
+	- the size of the second dataframe is :
+
+
+
+<h4><ins> British part</ins></h4>
 <h5> UK election</h5>
 The UK election set is composed of one unique file containing all the necessary data from 1914 to 2018. This datasets contains almost the same information than the French one. 
 However, the political system in the UK makes the voters vote for a party and not for a politican. Therefore, there are no names associated with the vote shares but political party's names. 
