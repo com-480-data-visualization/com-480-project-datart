@@ -37,8 +37,8 @@ The preprocessing will need to take care of those specificities to gather every 
 
 <h5> UK population </h5>
 
-The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government. Besides, ethnicity proportion may also be a factor in election, and we get the statistics in 2011 from UK Office for National Statistics.
-To conclude, for Uk population, we scratch the dataset of ages, gender, revenues, tax and ethnicity in UK regions.
+The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government. 
+To conclude, for Uk population, we scratch the dataset of ages, gender, revenues and tax in UK regions.
 
 <h3>2. PROBLEMATIC: </h3>
 
@@ -81,7 +81,7 @@ Otherwise, the dataset is really complete without any missing values.
 
 <h5> UK population</h5>
 
-Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. The ethnicity is more messy but can be reformed in the same way by simple operations including merging and concatenation. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization.
+Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization.
 
 
 <h3>4. RELATED WORK:</h3>
