@@ -7,7 +7,7 @@ On the other hand, we will process the equivalent datasets for the United Kingdo
 Since each dataset is different, you can find in the following paragraph a description of those and a forecast of the preprocessing needed for each. 
 </p>
 
-<h4><u> French part </u></h4>
+<h4><ins> French part </ins></h4>
 <h5> French election</h5>
 The datasets describing the results of the French election furnish the essential information we need to perform the visualizations. Each file regroup the election results per region and per department in France for a specific year. 
 The data are well organized in each file but no information about the different columns can be found. Even if the function of each column is quite easy to deduce, some details can be missed. 
@@ -18,7 +18,7 @@ One important thing to note which is specific to those datasets is the differenc
 <h5> French population</h5>
 
 
-<h4><u> United Kingdoms part </u></h4>
+<h4><ins> United Kingdoms part </ins></h4>
 <h5> UK election</h5>
 
 The dataset describing the results of the UK election is really complete and has the great particularity of being unique. Since every election result is contained in one single file, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
@@ -33,7 +33,7 @@ To conclude, for Uk population, we scratch the dataset of ages, gender, revenues
 <h3>2. PROBLEMATIC: </h3>
 
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
-<h4><u> French part </u></h4>
+<h4><ins> French part </ins></h4>
 <h5> French election</h5>
 The French election set is composed of 4 different datasets. The three first describing the results of the first and second round of the French election from 2002 to 2012. 
 We can find in those datasets the departmental and regional results. In each of these datasets, the regions and department have the same name, however not the same code.
@@ -48,7 +48,7 @@ The 2017 dataset is also complete even if some numbers are considered as strings
 <h5> French population</h5>
 
 
-<h4> United Kingdoms part</h4>
+<h4><ins> United Kingdoms part</ins></h4>
 <h5> UK election</h5>
 The UK election set is composed of one unique file containing all the necessary data from 1914 to 2018. This datasets contains almost the same information than the French one. 
 However, the political system in the UK makes the voters vote for a party and not for a politican. Therefore, there are no names associated with the vote shares but political party's names. 
