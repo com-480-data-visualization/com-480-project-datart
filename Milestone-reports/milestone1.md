@@ -81,7 +81,11 @@ Otherwise, the dataset is really complete without any missing values.
 
 <h5> UK population</h5>
 
-Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization.
+Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization. The 2 categories of dataframes after simple preprocessing can be summurized as follows:
+
+	* for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
+
+	* for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
 
 
 <h3>4. RELATED WORK:</h3>
