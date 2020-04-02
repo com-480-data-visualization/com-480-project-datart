@@ -1,19 +1,21 @@
 # MILESTONE 1
 <h3>1. DATASETS:</h3>
 
-<p>The datasets for this vizualisation are separated between the two countries we will base our vizualisation on. 
+<p>The datasets for this vizualisation are splitted between the two countries we will base our vizualisation on. 
 On one hand, we will process the data of the French election from 2002 to 2017 in parallel of the evolution of the French population per region and per department. 
 On the other hand, we will process the equivalent datasets for the United Kingdoms. 
-Since each dataset is different, you can find in the following paragraph a description of those and a forecast of the preprocessing needed for each. 
+We obtained those datasets from french and UK government agencies. Hence, the quality of each dataset is overall trustworthy and great.
+
 </p>
 
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The datasets describing the results of the French election furnish the essential information we need to perform the visualizations. Each file regroup the election results per region and per department in France for a specific year. 
-The data are well organized in each file but no information about the different columns can be found. Even if the function of each column is quite easy to deduce, some details can be missed. 
+The datasets describing the results of the French election provides the essential information we need to perform the visualizations. 
+Each file regroup the election results per region and per department in France for a specific year. 
 However, key information is missing such as the political party of the candidates, those will need to be added in the preprocessing. 
-Moreover, the fact each election has its own file makes the gathering more complicated. Indeed, the data are not organized the same between each file (ie each election) and the preprocessing part will need to take care of the differences to gather the data. 
-One important thing to note which is specific to those datasets is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
+Moreover, the data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of the differences to gather the data. 
+One important thing to note is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. 
+Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
 
 <h5> French population</h5>
 
@@ -27,8 +29,8 @@ Also, we had to clean and pre-process this data in order to group it in one sing
 <h4><ins> British Part </ins></h4>
 <h5> UK election</h5>
 
-The dataset describing the results of the UK election is really complete and has the great particularity of being unique. Since every election result is contained in one single file, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
-However, some counties (small region in the UK) exists in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. Indeed, each country has its own political parties and the management of the region changes way more than in an unified system.
+The UK datasets contains every election result  contained in one single file.Therefore, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
+However, some counties (small region in the UK) exist in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. 
 The preprocessing will need to take care of those specificities to gather every election with the wanted information in one single file. 
 
 <h5> UK population </h5>
@@ -39,6 +41,10 @@ The UK population datasets contain the information of features of British reside
      * Description of the population by different levels of revenue and taxes per year and per region.
 
 <h3>2. PROBLEMATIC: </h3>
+
+<h5> What are we trying to show with our visualization?  What are the motivation and target audience of our project? </h5>
+
+Our objective is to visualize the election of France and Britain in different departments/regions through time, and the impact of different population features on the election results. The visualization is supposed to provide straightforward view and insight of how the 2 countries differ from each other concerning the election and related features. Also, readers can have a clearer picture of the influence of population features on election and how the impact differ among regions or countries. Our target audience may be the politicians or political scholars who intend to figure out the important factors for the election and difference between countries, and residents who’d like to know the transparent election details.
 
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
@@ -53,7 +59,10 @@ We can detail the dataframe as following :
 For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailled. 
 
 Each of those dataset is complete without any missing value. 
-The size of each dataset depends of the number of candidates for each election.
+After the gathering and the preprocessing of those files, we get: 
+
+    * a size for a first dataframe for the region of 19x38 
+	* a size for a first dataframe for the departments of 107x38 
 
 <h5> French population</h5>
 
@@ -94,7 +103,7 @@ Similar to the preprocessing in election data, the UK population datasets are al
 
     * for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
 
-    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the s
+    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
 
 
 <h3>4. RELATED WORK:</h3>
@@ -112,8 +121,21 @@ The vizualisation remains perfect for this since the side by side comparaison wi
 
 
 <h5> What source of inspiration do you take? Visualizations that you found on other websites or magazines</h5>
+<h6>Political:</h6>
 
 [Le Monde-loyer](https://www.lemonde.fr/les-decodeurs/article/2019/11/15/loyers-a-paris-toulouse-lille-visualisez-quels-quartiers-correspondent-a-votre-budget_6019334_4355770.html)
-[Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
-[Le Monde-multipleCard](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
+</br>
+
+[Le Monde-party-analysis](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
+</br>
+
 [NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
+</br>
+<h6>Non-political:</h6>
+
+
+[Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
+</br>
+
+Data vizualisation, LGBTQI+ rights per country
+![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
