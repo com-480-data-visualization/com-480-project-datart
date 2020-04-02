@@ -19,10 +19,10 @@ Merge the results for the region from 2002 to 2015 will be a huge part of the pr
 
 <h5> French population</h5>
 
-We have in total 2 categories of datasets, used in our project for describing the french population :  
+We have in total 2 categories of datasets, used in our project for describing the french population:  
 
-. Description based on <u>age</u> (19-year age groups) and <u>gender</u> per year and per region/department (between 2002 and 2017)
-. Description based on <u>revenue and taxes</u> per year and per region only (between 2002 and 2015)
+* Description based on <ins>age</ins> (19-year age groups) and <ins>gender</ins> per year and per region/department (between 2002 and 2017)
+* Description based on <ins>revenue and taxes</ins> per year and per region only (between 2002 and 2015)
 
 Also, we had to clean and pre-process this data in order to group it in one single dataframe (for every category) by creating a "year" column or a "gender" categorical column (previously headers in the excel files).
 
@@ -44,7 +44,10 @@ The UK population datasets contain the information of features of British reside
 
 <h5> What are we trying to show with our visualization?  What are the motivation and target audience of our project? </h5>
 
-Our objective is to visualize the election of France and Britain in different departments/regions through time, and the impact of different population features on the election results. The visualization is supposed to provide straightforward view and insight of how the 2 countries differ from each other concerning the election and related features. Also, readers can have a clearer picture of the influence of population features on election and how the impact differ among regions or countries. Our target audience may be the politicians or political scholars who intend to figure out the important factors for the election and difference between countries, and residents who’d like to know the transparent election details.
+Our objective is to visualize the election of France and Britain in different departments/regions through time, and the impact of different population features on the election results. </br> 
+The visualization is supposed to provide a straightforward view and insight of how the 2 countries differ from each other concerning the election and related features. Also, readers can have a clearer picture of the correlation of population features on election and how the impact differ among regions or countries.
+
+ Our target audience may be the politicians or political scholars who intend to figure out some important factors for the election and difference between countries or regions. We may also target residents from France or the United Kingdom who would like to know some transparent election details.
 
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
@@ -67,16 +70,15 @@ After the gathering and the preprocessing of those files, we get:
 <h5> French population</h5>
 
 After pre-processing our data, we need to explain how our dataframes are built and how much insight do they give.
-So in our case, we have two categories of dataframes :
+So in our case, we have two categories of dataframes:
 
-. for the population's gender and age : two categorical columns for the "gender" and "region", and the other columns are integer columns with the number of people in each group (we have 5 age groups age groups of 19-year ranges specifically) or the year
-	
-. for the population's revenue : one categorical column for the "region" and the other columns are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
+* for the population's gender and age : two categorical columns for the "gender" and "region", and the other columns are integer columns with the number of people in each group (we have 5 age groups age groups of 19-year ranges specifically) or the year
+* for the population's revenue : one categorical column for the "region" and the other columns are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
 
-The data used in order to describe the french population can be represented after pre-processing as  : 
+The data used in order to describe the french population can be represented after pre-processing as: 
 
-. the size of the first dataframe is : 648 rows and 9 columns
-. the size of the second dataframe is : 322 rows and 9 columns
+* the size of the first dataframe is : 648 rows and 9 columns
+* the size of the second dataframe is : 322 rows and 9 columns
 
 we also described in more details the statistical analysis of our data directly on the dedicated [notebook](../dataset/population-france/population-EDA.ipynb) (with added analysis and preliminary plots).
 
@@ -102,7 +104,7 @@ Similar to the preprocessing in election data, the UK population datasets are al
 
     * for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
 
-    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
+    * for the population's revenue and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
 
 
 <h3>4. RELATED WORK:</h3>
