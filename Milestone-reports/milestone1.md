@@ -33,8 +33,8 @@ Overall, the quality of the data is good because the origin is a well-renowned g
 <h4><ins> British Part </ins></h4>
 <h5> UK election</h5>
 
-The dataset describing the results of the UK election is really complete and has the great particularity of being unique. Since every election result is contained in one single file, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
-However, some counties (small region in the UK) exists in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. Indeed, each country has its own political parties and the management of the region changes way more than in an unified system.
+The UK datasets contains every election result  contained in one single file.Therefore, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
+However, some counties (small region in the UK) exist in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. 
 The preprocessing will need to take care of those specificities to gather every election with the wanted information in one single file. 
 
 <h5> UK population </h5>
