@@ -1,19 +1,20 @@
 # MILESTONE 1
 <h3>1. DATASETS:</h3>
 
-<p>The datasets for this vizualisation are separated between the two countries we will base our vizualisation on. 
+<p>The datasets for this vizualisation are splitted between the two countries we will base our vizualisation on. 
 On one hand, we will process the data of the French election from 2002 to 2017 in parallel of the evolution of the French population per region and per department. 
 On the other hand, we will process the equivalent datasets for the United Kingdoms. 
-Since each dataset is different, you can find in the following paragraph a description of those and a forecast of the preprocessing needed for each. 
+
 </p>
 
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The datasets describing the results of the French election furnish the essential information we need to perform the visualizations. Each file regroup the election results per region and per department in France for a specific year. 
-The data are well organized in each file but no information about the different columns can be found. Even if the function of each column is quite easy to deduce, some details can be missed. 
+The datasets describing the results of the French election furnish the essential information we need to perform the visualizations. 
+Each file regroup the election results per region and per department in France for a specific year. 
 However, key information is missing such as the political party of the candidates, those will need to be added in the preprocessing. 
-Moreover, the fact each election has its own file makes the gathering more complicated. Indeed, the data are not organized the same between each file (ie each election) and the preprocessing part will need to take care of the differences to gather the data. 
-One important thing to note which is specific to those datasets is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
+Moreover, the data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of the differences to gather the data. 
+One important thing to note is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. 
+Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
 
 <h5> French population</h5>
 
@@ -114,8 +115,21 @@ The vizualisation remains perfect for this since the side by side comparaison wi
 
 
 <h5> What source of inspiration do you take? Visualizations that you found on other websites or magazines</h5>
+<h6>Political:</h6>
 
 [Le Monde-loyer](https://www.lemonde.fr/les-decodeurs/article/2019/11/15/loyers-a-paris-toulouse-lille-visualisez-quels-quartiers-correspondent-a-votre-budget_6019334_4355770.html)
-[Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
-[Le Monde-multipleCard](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
+</br>
+
+[Le Monde-party-analysis](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
+</br>
+
 [NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
+</br>
+<h6>Non-political:</h6>
+
+
+[Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
+</br>
+
+Data vizualisation, LGBTQI+ rights per country
+![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
