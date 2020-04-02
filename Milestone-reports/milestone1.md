@@ -101,7 +101,7 @@ Similar to the preprocessing in election data, the UK population datasets are al
 
     * for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
 
-    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the s
+    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
 
 
 <h3>4. RELATED WORK:</h3>
