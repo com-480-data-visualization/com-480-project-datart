@@ -17,16 +17,12 @@ One important thing to note which is specific to those datasets is the differenc
 
 <h5> French population</h5>
 
-We have in total 2 categories of datasets, used in our project to describe the french population :
+We have in total 2 categories of datasets, used in our project for describing the french population :
+	
+    - Description based on <u>age</u> (19-year age groups) and <u>gender</u> per year and per region/department (between 2002 and 2017)
+    - Description based on <u>revenue and taxes</u> per year and per region only (between 2002 and 2015)
 
-	* Description of the population based on age (5-year and 119-year age groups) and gender per year and per region/department
-	* Description of the population based on revenue and taxes per year and per region only
-
-We obtained this data from a french government agency called "INSEE" (National Institute of statistical and economics studies).
-
-At first, these datasets were splitted by year and some of them were written manually (some of the columns were not aligned). Consequently, we had to clean and pre-process this data in order to group it in one single dataframe (for every category) by creating a "year" column and in the first category a "gender" because it was previously only a header.
-
-Overall, the quality of the data is good because the origin is a well-renowned government agency.
+Also, we had to clean and pre-process this data in order to group it in one single dataframe (for every category) by creating a "year" column or a "gender" categorical column (previously headers in the excel files).
 
 <h4><ins> British Part </ins></h4>
 <h5> UK election</h5>
@@ -61,18 +57,20 @@ The size of each dataset depends of the number of candidates for each election.
 
 <h5> French population</h5>
 
-After pre-processing our data, we need to explain how our dataframes are built and how much insight do they have.
+After pre-processing our data, we need to explain how our dataframes are built and how much insight do they give.
 So in our case, we have two categories of dataframes :
 
-	* for the population's gender and age : two categorical columns for the "gender" and "region" (or "department") and the rest are integer columns for the number of people in each group (age groups specifically of 5-year range or 19-year range) and the year
-	* for the population's revenu : one categorical column for the "region" and the rest are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
+	* for the population's gender and age : two categorical columns for the "gender" and "region", and the other columns are integer columns with the number of people in each group (we have 5 age groups age groups of 19-year ranges specifically) or the year
+	
+	* for the population's revenue : one categorical column for the "region" and the other columns are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
 
-The data used in order to understand the french population using our criterias also contains useful statistical insight : 
+The data used in order to describe the french population can be represented after pre-processing as  : 
 
-	* the size of the first dataframe is :
-	* the size of the second dataframe is :
+	* the size of the first dataframe is : 648 rows and 9 columns
+	
+	* the size of the second dataframe is : 322 rows and 9 columns
 
-
+we also described in more details the statistical analysis of our data directly on the dedicated [notebook](../dataset/dataset/population-france/population-EDA.ipynb) (with added analysis and preliminary plots).
 
 <h4><ins> British part</ins></h4>
 <h5> UK election</h5>
