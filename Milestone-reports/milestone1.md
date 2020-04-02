@@ -45,6 +45,8 @@ The UK population datasets contain the information of features of British reside
 
 <h3>2. PROBLEMATIC: </h3>
 
+Our objective is to visualize the election of France and Britain in different departments/regions through time, and the impact of different population features on the election results. The visualization is supposed to provide straightforward view and insight of how the 2 countries differ from each other concerning the election and related features. Also, readers can have a clearer picture of the influence of population features on election and how the impact differ among regions or countries. Our target audience may be the politicians or political scholars who intend to figure out the important factors for the election and difference between countries, and residents who’d like to know the transparent election details.
+
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
