@@ -138,7 +138,7 @@ Below you will find some examples from websites and well-known magazines :
 [NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
 </br>
 
-[Storybench] (https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
+[Storybench](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
 </br>
 
 <h6>Non-political:</h6>
@@ -154,8 +154,10 @@ Below you will find some examples from websites and well-known magazines :
 
 <h6>Some visual examples:</h6>
 
-Data vizualisation, LGBTQI+ rights per country
+<ins>Data vizualisation, LGBTQI+ rights per country</ins>
+
 ![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
 
-Mapping politically polarized cities
+<ins>Mapping politically polarized cities</ins>
+
 ![picture alt](https://i0.wp.com/flowingdata.com/wp-content/uploads/2019/05/Political-polarization-by-FiveThirtyEight.png?w=1200&ssl=1)
