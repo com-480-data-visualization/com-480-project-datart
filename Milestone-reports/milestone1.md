@@ -4,12 +4,13 @@
 <p>The datasets for this vizualisation are splitted between the two countries we will base our vizualisation on. 
 On one hand, we will process the data of the French election from 2002 to 2017 in parallel of the evolution of the French population per region and per department. 
 On the other hand, we will process the equivalent datasets for the United Kingdoms. 
+We obtained those datasets from french and UK government agencies. Hence, the quality of each dataset is overall trustworthy and great.
 
 </p>
 
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The datasets describing the results of the French election furnish the essential information we need to perform the visualizations. 
+The datasets describing the results of the French election provides the essential information we need to perform the visualizations. 
 Each file regroup the election results per region and per department in France for a specific year. 
 However, key information is missing such as the political party of the candidates, those will need to be added in the preprocessing. 
 Moreover, the data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of the differences to gather the data. 
@@ -58,7 +59,10 @@ We can detail the dataframe as following :
 For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailled. 
 
 Each of those dataset is complete without any missing value. 
-The size of each dataset depends of the number of candidates for each election.
+After the gathering and the preprocessing of those files, we get: 
+
+    * a size for a first dataframe for the region of 19x38 
+	* a size for a first dataframe for the departments of 107x38 
 
 <h5> French population</h5>
 
