@@ -45,15 +45,14 @@ To conclude, for Uk population, we scratch the dataset of ages, gender, revenues
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The French election set is composed of 4 different datasets. The three first describing the results of the first and second round of the French election from 2002 to 2012. 
-We can find in those datasets the departmental and regional results. In each of these datasets, the regions and department have the same name, however not the same code.
-As we will treat only the first round of the election, we will detail only this sheet. 
-For these datasets, the regional and department sheets contain the results for all the candidates without any missing values.
-For each candidate we can find their gender, name, surname, number of vote per region/department, vote share among the registered voters and among the total expressed votes. 
-We can also find the name of the department and region with their respective code. 
+The French election set is composed of 4 different datasets. In 3 out of 4 of those dataset, we can find the same features. 
+We can detail the dataframe as following : 
 
-The 2017 dataset contains the same information but the region are different and the organisation of the features in the datasets is also different. The white votes are more detailled than in the previous datasets. 
-The 2017 dataset is also complete even if some numbers are considered as strings. We can deal with this manually with excel before the preprocessing.
+	* three categorical columns per candidate for his/her gender, name and surname  and "region" (or "department") 
+	* the rest are float columns for the number of voters per region/department in total and per candidate
+For the 2017 election dataset, we can find more float columns as the white votes are more detailled. 
+
+Each of those dataset is complete without any missing value. The size depends of the number of
 
 <h5> French population</h5>
 
