@@ -46,6 +46,10 @@ The UK population datasets contain the information of features of British reside
 
 <h3>2. PROBLEMATIC: </h3>
 
+<h5> What are we trying to show with our visualization?  What are the motivation and target audience of our project? </h5>
+
+Our objective is to visualize the election of France and Britain in different departments/regions through time, and the impact of different population features on the election results. The visualization is supposed to provide straightforward view and insight of how the 2 countries differ from each other concerning the election and related features. Also, readers can have a clearer picture of the influence of population features on election and how the impact differ among regions or countries. Our target audience may be the politicians or political scholars who intend to figure out the important factors for the election and difference between countries, and residents who’d like to know the transparent election details.
+
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
@@ -101,7 +105,7 @@ Similar to the preprocessing in election data, the UK population datasets are al
 
     * for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
 
-    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the s
+    * for the population's revenu and tax : The rows are the income ranges (totally 10 ranges) in one particular region and the columns represent the statistics of individuals and amounts of 6 different income/tax categories, including self-employment income, employment income, pension income, other income, total income and total tax. 
 
 
 <h3>4. RELATED WORK:</h3>
