@@ -122,6 +122,11 @@ The vizualisation remains perfect for this since the side by side comparaison wi
 
 
 <h5> What source of inspiration do you take? Visualizations that you found on other websites or magazines</h5>
+
+In this part, we tried to separate the political inspirations from the non-political ones.</br>
+Indeed our visualization project is clearly oriented toward politics and demographics but we wanted to find some original plots in order to express our results. </br>
+Below you will find some examples from websites and well-known magazines :
+
 <h6>Political:</h6>
 
 [Le Monde-loyer](https://www.lemonde.fr/les-decodeurs/article/2019/11/15/loyers-a-paris-toulouse-lille-visualisez-quels-quartiers-correspondent-a-votre-budget_6019334_4355770.html)
