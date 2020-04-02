@@ -19,10 +19,10 @@ Merge the results for the region from 2002 to 2015 will be a huge part of the pr
 
 <h5> French population</h5>
 
-We have in total 2 categories of datasets, used in our project for describing the french population :
-	
-    - Description based on <u>age</u> (19-year age groups) and <u>gender</u> per year and per region/department (between 2002 and 2017)
-    - Description based on <u>revenue and taxes</u> per year and per region only (between 2002 and 2015)
+We have in total 2 categories of datasets, used in our project for describing the french population :  
+
+. Description based on <u>age</u> (19-year age groups) and <u>gender</u> per year and per region/department (between 2002 and 2017)
+. Description based on <u>revenue and taxes</u> per year and per region only (between 2002 and 2015)
 
 Also, we had to clean and pre-process this data in order to group it in one single dataframe (for every category) by creating a "year" column or a "gender" categorical column (previously headers in the excel files).
 
@@ -69,17 +69,16 @@ After the gathering and the preprocessing of those files, we get:
 After pre-processing our data, we need to explain how our dataframes are built and how much insight do they give.
 So in our case, we have two categories of dataframes :
 
-	* for the population's gender and age : two categorical columns for the "gender" and "region", and the other columns are integer columns with the number of people in each group (we have 5 age groups age groups of 19-year ranges specifically) or the year
+. for the population's gender and age : two categorical columns for the "gender" and "region", and the other columns are integer columns with the number of people in each group (we have 5 age groups age groups of 19-year ranges specifically) or the year
 	
-	* for the population's revenue : one categorical column for the "region" and the other columns are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
+. for the population's revenue : one categorical column for the "region" and the other columns are integer columns representing (per year and in average) the gross salary, gross surplus, social contributions of employed/non-employed citizens, taxes, cash benefit, available gross revenue and the year of course.
 
 The data used in order to describe the french population can be represented after pre-processing as  : 
 
-	* the size of the first dataframe is : 648 rows and 9 columns
-	
-	* the size of the second dataframe is : 322 rows and 9 columns
+. the size of the first dataframe is : 648 rows and 9 columns
+. the size of the second dataframe is : 322 rows and 9 columns
 
-we also described in more details the statistical analysis of our data directly on the dedicated [notebook](../dataset/dataset/population-france/population-EDA.ipynb) (with added analysis and preliminary plots).
+we also described in more details the statistical analysis of our data directly on the dedicated [notebook](../dataset/population-france/population-EDA.ipynb) (with added analysis and preliminary plots).
 
 <h4><ins> British part</ins></h4>
 <h5> UK election</h5>
