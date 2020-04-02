@@ -137,11 +137,25 @@ Below you will find some examples from websites and well-known magazines :
 
 [NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
 </br>
-<h6>Non-political:</h6>
 
+[Storybench] (https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
+</br>
+
+<h6>Non-political:</h6>
 
 [Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
 </br>
 
+[DataViz-Project](https://datavizproject.com/)
+</br>
+
+[blog-examples](https://visme.co/blog/best-data-visualizations/)
+</br>
+
+<h6>Some visual examples:</h6>
+
 Data vizualisation, LGBTQI+ rights per country
 ![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
+
+Mapping politically polarized cities
+![picture alt](https://i0.wp.com/flowingdata.com/wp-content/uploads/2019/05/Political-polarization-by-FiveThirtyEight.png?w=1200&ssl=1)
