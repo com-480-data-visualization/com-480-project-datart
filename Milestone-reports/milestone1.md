@@ -1,9 +1,9 @@
 # MILESTONE 1
 <h3>1. DATASETS:</h3>
 
-<p>For our Data Visualization project, we will study two countries : France and UK.
+<p>For our Data Visualization project, we will study two countries : France and UK. </br>
 On one hand, we will process the data of the French elections between 2002 and 2017 in parallel with the evolution of the French population per region and per department.
-On the other hand, we will process the equivalent datasets from the United Kingdom.
+On the other hand, we will process the equivalent datasets from the United Kingdom. </br>
 We obtained those datasets from french and UK government agencies. Hence, the quality of each dataset is overall trustworthy and reliable.
 
 </p>
@@ -13,7 +13,7 @@ We obtained those datasets from french and UK government agencies. Hence, the qu
 The datasets describing the results of the French election provide the essential information we need to perform the visualizations.
 Each file regroups the election results per region and per department in France for a specific year.
 However, key information is missing such as the political party of the candidates, which will need to be added in the preprocessing.
-Moreover, the data is not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of these differences in order to gather the data.
+Moreover, the data is not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of these differences in order to gather the data. </br>
 One important thing to note is the difference between the regions for each year. The French regions have been merged in 2015 and therefore, the regional results of the elections between 2002 and 2015 are different from ones of the 2017 elections, so it needs some preprocessing.
 
 <h5> French population</h5>
@@ -162,7 +162,7 @@ Below you will find some examples from websites and well-known magazines :
 
 <h6>Some visual examples:</h6>
 
-<ins>Data vizualisation, LGBTQI+ rights per country</ins>
+<ins>Data vizualisation, LGBTQI+ rights per US state</ins>
 
 ![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
 
