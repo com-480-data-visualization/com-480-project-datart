@@ -128,13 +128,13 @@ Below you will find some examples from websites and well-known magazines :
 
 <h6>Political:</h6>
 
-[Le Monde-loyer](https://www.lemonde.fr/les-decodeurs/article/2019/11/15/loyers-a-paris-toulouse-lille-visualisez-quels-quartiers-correspondent-a-votre-budget_6019334_4355770.html)
+[Analysis of rents in France by "le Monde"](https://www.lemonde.fr/les-decodeurs/article/2019/11/15/loyers-a-paris-toulouse-lille-visualisez-quels-quartiers-correspondent-a-votre-budget_6019334_4355770.html)
 </br>
 
-[Le Monde-party-analysis](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
+[2019 European Elections Analysis by "le Monde"](https://www.lemonde.fr/les-decodeurs/article/2019/05/27/l-effondrement-de-lr-la-progression-d-eelv-et-la-stabilite-de-la-gauche-radicale-en-cartes_5468011_4355770.html)
 </br>
 
-[NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
+[2016 US Election Analysis by "New York Times"](https://driven-by-data.net/2016/11/04/red-blue.html)
 </br>
 
 [Storybench political ideologies](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
@@ -146,7 +146,7 @@ Below you will find some examples from websites and well-known magazines :
 
 <h6>Non-political:</h6>
 
-[Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
+[Smoking Analysis in France by "le Monde"](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
 </br>
 
 [DataViz Project examples](https://datavizproject.com/)
@@ -158,7 +158,7 @@ Below you will find some examples from websites and well-known magazines :
 [kirell benzi's artwork](https://www.kirellbenzi.com/art/)
 </br>
 
-[yield-curve by NYT](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html)
+[Yield Curve Study (2019) by the "New York Times"](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html)
 
 <h6>Some visual examples:</h6>
 
