@@ -172,6 +172,6 @@ Below you will find some examples from websites and well-known magazines :
 
 <ins>Political Ideology Visualization (US)</ins>
 
-![picture alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fdeeper-insight%2Fapplication-of-data-visualization-political-polarization-in-the-american-public-77cfa5dbbf0b&psig=AOvVaw2d25MSd3sYy1PIvujPoJuA&ust=1586007762226000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCF0b6xzOgCFQAAAAAdAAAAABAR)
+![picture alt](https://www.pewresearch.org/wp-content/uploads/2014/12/PP-2014-06-12-polarization-0-05.png)
 
 <h5>This dataset was not explored before in any other context (ML or ADA...)</h5>
