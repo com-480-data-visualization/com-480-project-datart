@@ -137,10 +137,10 @@ Below you will find some examples from websites and well-known magazines :
 [2016 US Election Analysis by "New York Times"](https://driven-by-data.net/2016/11/04/red-blue.html)
 </br>
 
-[Storybench political ideologies](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
+[Storybench political ideologies by the "Northeastern University's school of Journalism](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
 </br>
 
-[Supreme court and 2016 US Election](https://duelingdata.blogspot.com/2015/07/the-supreme-court-2016-election.html)
+[Supreme court and 2016 US Election by Adam McCann](https://duelingdata.blogspot.com/2015/07/the-supreme-court-2016-election.html)
 
 [FiveThirtyEight & Politics](https://fivethirtyeight.com/politics/)
 
@@ -152,10 +152,10 @@ Below you will find some examples from websites and well-known magazines :
 [DataViz Project examples](https://datavizproject.com/)
 </br>
 
-[Trending data visulizations](https://visme.co/blog/best-data-visualizations/)
+[Blog about trending data visualizations](https://visme.co/blog/best-data-visualizations/)
 </br>
 
-[kirell benzi's artwork](https://www.kirellbenzi.com/art/)
+[kirell benzi's Artwork](https://www.kirellbenzi.com/art/)
 </br>
 
 [Yield Curve Study (2019) by the "New York Times"](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html)
