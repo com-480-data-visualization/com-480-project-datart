@@ -29,12 +29,12 @@ Also, we had to clean and pre-process this data in order to group it in one sing
 <h5> UK election</h5>
 
 The UK datasets contain every election result within one single file. Therefore, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed.
-However, some counties (small regions in the UK) existed in 2001 and disappeared after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser.
+However, some counties (small regions in the UK) existed in 2001 and disappeared after 2005. Moreover, the fact that the UK elections include 4 different countries (England, Scotland ,Ireland, Wales) make the data way sparser.
 The preprocessing will need to take care of those specificities to gather every election with the wanted information in one single file.
 
 <h5> UK population </h5>
 
-The UK population datasets contain the information of features from British residents which may make a difference to the election's results. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries which is acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government.</br>
+The UK population datasets contain the information of features from British residents which may make a difference to the election's results. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 4 UK countries which is acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government.</br>
 To conclude, for Uk population, we scratch the dataset of ages, gender, revenues and tax in UK regions:
 
 * Description of the population by different age groups and gender per year and per region.
