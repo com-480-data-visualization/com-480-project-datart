@@ -53,17 +53,16 @@ The visualization is supposed to provide a straightforward view and insight of h
 <h3>3. EXPLORATORY DATA ANALYSIS:</h3>
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The French election set is composed of 4 different datasets. In 3 out of 4 of those dataset, we can find the same features. 
-We can detail the dataframe as following: 
+The French election set is composed of 4 different files. 
 
+In 3 out of 4 of those dataset, we can find the same features:
 * three categorical columns per candidate for his/her gender, name and surname  
 * one categorical column for the region (or department) and the region's (or department's) code
 * one integer and two float columns per candidate for the number of voters per region/department and for the vote shares
-* the rests are float or integer column for the numnber of white voters or total voters
+* the rests are float or integer column for the number of white votes or total votes
 For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailled. 
 
-Each of those dataset is complete without any missing value. 
-After the gathering and the preprocessing of those files, we get: 
+Each of those dataset is complete without any missing value with the following size after preprocessing:
 
 * a size for a first dataframe for the region of 19x38 
 * a size for a first dataframe for the departments of 107x38 
@@ -85,18 +84,17 @@ we also described in more details the statistical analysis of our data directly 
 
 <h4><ins> British part</ins></h4>
 <h5> UK election</h5>
-The UK election set is composed of one unique file containing all the necessary data from 1914 to 2018. This dataset contains almost the same information than the French one. 
-However, the political system in the UK makes the voters vote for a party and not for a politican. Therefore, there are no names/surname/gender associated with the vote shares but political party's names. 
-
-We can find in the dataset the following dataframes: 
+This dataset contains almost the same information than the French one. 
+However, the political system in the UK makes the voters vote for a party and not for a politican. 
+We can thus find in the dataset the following dataframes: 
 
 * 5 categorical column for the region, the county, the country the constituency and the constituency's code. 
 * 1 categorical column per political party 
 * 1 integer and 1 float column for the number of voters for each party and their vote shares
 * 1 integer and 1 float column for the total votes and the turnout percentage
 
-This format is repeated for every year. The sheets from 1914 to 1997 has been deleted manually to lighten the file. 
-The size of each of those datasets depends of the number of political parties and therefore varies according to the year. 
+This format is repeated for every year. 
+After preprocessing, the file for departments is 50x26 and for the region 13x26 
 Otherwise, the dataset is really complete without any missing values. 
 
 <h5> UK population</h5>
