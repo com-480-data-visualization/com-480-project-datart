@@ -110,15 +110,16 @@ Similar to the preprocessing in election data, the UK population datasets are al
 <h3>4. RELATED WORK:</h3>
 <h5> What others have already done with that data?</h5>
 As the data found are public political data, a lot of analysis has been made from these datasets. From political election analysis and vizualisation. 
-However, we couldn't find a media source quoting directly this dataset. *
+However, we could not find any media source quoting directly the datasets we are using for this project. *
 
 <h5> Why is your approach original</h5>
-Our approach is original in the sense that we don't limit ourselve to the analysis of one political election.
-First, we try to correlate the evolution of the results of the election with the evolution of the population on several criteria. 
-Since the environment of the population is changing from territory to territoy and that the environment partly conditions the vote ; the correlation should be visible. 
 
-Moreover, media analysis often limit themselves to their country. Compare two countries that have a political system  different but with a population having a common culture remains an original approach. 
-The vizualisation remains perfect for this since the side by side comparaison will show the similarities and idfferences way more edxplicitely.
+Our approach is original in the sense that we do not limit ourselves to the analysis of one political election.</br>
+First, we try to correlate the evolution of the results of the election with the evolution of the population on several criterias.</br> 
+Since the environment of the population is changing from territory to territory (or region to region) and that the environment partly conditions the vote ; the correlation should be visible. 
+
+Moreover, media analysis often limit themselves to their country. Compare two countries that have a political system  different but with a population having a similar socio-cultural system remains an original approach. </br>
+Consequently, The vizualisation project is a perfect example of analysis, since the side by side comparaison will show the similarities and differences way more explicitely.
 
 
 <h5> What source of inspiration do you take? Visualizations that you found on other websites or magazines</h5>
@@ -161,3 +162,6 @@ Below you will find some examples from websites and well-known magazines :
 <ins>Mapping politically polarized cities</ins>
 
 ![picture alt](https://i0.wp.com/flowingdata.com/wp-content/uploads/2019/05/Political-polarization-by-FiveThirtyEight.png?w=1200&ssl=1)
+
+
+<h5>This dataset was not explored before in any other context (ML or ADA...)</h5>
