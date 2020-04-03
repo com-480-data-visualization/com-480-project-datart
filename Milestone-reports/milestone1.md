@@ -35,10 +35,11 @@ The preprocessing will need to take care of those specificities to gather every 
 
 <h5> UK population </h5>
 
-The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government. To conclude, for Uk population, we scratch the dataset of ages, gender, revenues and tax in UK regions.
+The UK population datasets contain the information of features of British residents that may make a difference to the election result. Among them, we have the statistics of population's age ranges and genders from 2001 to 2018 in different regions of 3 UK countries, and it's acquired from StatsWales. Data of revenue and tax also reflect the economic status in one UK region, and the information from 2011 to 2018 is also available from dataset offered by UK government.</br>
+To conclude, for Uk population, we scratch the dataset of ages, gender, revenues and tax in UK regions:
 
-     * Description of the population by different age ranges and gender per year and per region.
-     * Description of the population by different levels of revenue and taxes per year and per region.
+* Description of the population by different age ranges and gender per year and per region.
+* Description of the population by different levels of revenue and taxes per year and per region.
 
 <h3>2. PROBLEMATIC: </h3>
 
@@ -53,19 +54,19 @@ The visualization is supposed to provide a straightforward view and insight of h
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
 The French election set is composed of 4 different datasets. In 3 out of 4 of those dataset, we can find the same features. 
-We can detail the dataframe as following : 
+We can detail the dataframe as following: 
 
-	* three categorical columns per candidate for his/her gender, name and surname  
-	* one categorical column for the region (or department) and the region's (or department's) code
-	* one integer and two float columns per candidate for the number of voters per region/department and for the vote shares
-	* the rests are float or integer column for the numnber of white voters or total voters
+* three categorical columns per candidate for his/her gender, name and surname  
+* one categorical column for the region (or department) and the region's (or department's) code
+* one integer and two float columns per candidate for the number of voters per region/department and for the vote shares
+* the rests are float or integer column for the numnber of white voters or total voters
 For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailled. 
 
 Each of those dataset is complete without any missing value. 
 After the gathering and the preprocessing of those files, we get: 
 
-    * a size for a first dataframe for the region of 19x38 
-	* a size for a first dataframe for the departments of 107x38 
+* a size for a first dataframe for the region of 19x38 
+* a size for a first dataframe for the departments of 107x38 
 
 <h5> French population</h5>
 
@@ -89,10 +90,10 @@ However, the political system in the UK makes the voters vote for a party and no
 
 We can find in the dataset the following dataframes: 
 
-     * 5 categorical column for the region, the county, the country the constituency and the constituency's code. 
-     * 1 categorical column per political party 
-     * 1 integer and 1 float column for the number of voters for each party and their vote shares
-     * 1 integer and 1 float column for the total votes and the turnout percentage
+* 5 categorical column for the region, the county, the country the constituency and the constituency's code. 
+* 1 categorical column per political party 
+* 1 integer and 1 float column for the number of voters for each party and their vote shares
+* 1 integer and 1 float column for the total votes and the turnout percentage
 
 This format is repeated for every year. The sheets from 1914 to 1997 has been deleted manually to lighten the file. 
 The size of each of those datasets depends of the number of political parties and therefore varies according to the year. 
