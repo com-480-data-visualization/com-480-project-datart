@@ -10,11 +10,11 @@ We obtained those datasets from french and UK government agencies. Hence, the qu
 
 <h4><ins> French part </ins></h4>
 <h5> French election</h5>
-The datasets provides the essential information we need. 
+The datasets describing the results of the French election provides the essential information we need to perform the visualizations. 
 Each file regroup the election results per region and per department in France for a specific year. 
-However, key information is missing such as the political party of the candidates which will need to be added in the preprocessing. 
-The data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of those differences. 
-One important thing to note is the difference between the regions for each year. The French regions have been merged: the regional results of the election between 2002 and 2015 are different from the 2017 ones. 
+However, key information is missing such as the political party of the candidates, those will need to be added in the preprocessing. 
+Moreover, the data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of the differences to gather the data. 
+One important thing to note is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. 
 Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
 
 <h5> French population</h5>
@@ -29,9 +29,9 @@ Also, we had to clean and pre-process this data in order to group it in one sing
 <h4><ins> British Part </ins></h4>
 <h5> UK election</h5>
 
-This dataset contains every election result  contained in one single file.Therefore, the format of the different data over the years is very similar. Way less preprocessing is needed. 
-However, some counties exist in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries make the data way sparser. 
-The preprocessing will need to take care of those specificities to gather every election in one single file. 
+The UK datasets contains every election result  contained in one single file.Therefore, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
+However, some counties (small region in the UK) exist in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. 
+The preprocessing will need to take care of those specificities to gather every election with the wanted information in one single file. 
 
 <h5> UK population </h5>
 
@@ -101,7 +101,7 @@ Otherwise, the dataset is really complete without any missing values.
 
 <h5> UK population</h5>
 
-Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. The way of data presentation is almost the same as the election data, only replacing the vote string data by population numerical data. There are some tiny difference among the name of Uk regions, but it can also be handled with text processing techniques. Detailed statistics analysis will be presented in later visualization. The 2 categories of dataframes after simple preprocessing can be summurized as follows:
+Similar to the preprocessing in election data, the UK population datasets are also complete and well formed in xls or csv. The age and tax datasets are formed in the same way in unique file through different years. After simple text processing and preprocessing, the 2 categories of dataframes after simple preprocessing can be summurized as follows:
 
    * for the population's gender and age : The rows show different age ranges in one year, and age ranges of different years are concatenated in rows. For each year, there are 12 different age range rows. In the columns, there are 37 different regions in England, Wales, Scotland and North Ireland. The interger number represents the number of people in the corresponding age-year row and region column. There is one other same dataframe that counts the number of male/female population.
 
