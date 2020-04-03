@@ -137,19 +137,28 @@ Below you will find some examples from websites and well-known magazines :
 [NYT-election](https://driven-by-data.net/2016/11/04/red-blue.html)
 </br>
 
-[Storybench](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
+[Storybench political ideologies](https://www.storybench.org/ten-ways-you-might-consider-visualizing-political-issues-and-ideologies-this-election/)
 </br>
+
+[Supreme court and 2016 US Election](https://duelingdata.blogspot.com/2015/07/the-supreme-court-2016-election.html)
+
+[FiveThirtyEight & Politics](https://fivethirtyeight.com/politics/)
 
 <h6>Non-political:</h6>
 
 [Le Monde-tobacco](https://www.lemonde.fr/les-decodeurs/article/2019/01/29/ou-fume-t-on-le-plus-en-france-ou-souffre-t-on-le-plus-de-maladies-liees-au-tabagisme_5416235_4355770.html)
 </br>
 
-[DataViz-Project](https://datavizproject.com/)
+[DataViz Project examples](https://datavizproject.com/)
 </br>
 
-[blog-examples](https://visme.co/blog/best-data-visualizations/)
+[Trending data visulizations](https://visme.co/blog/best-data-visualizations/)
 </br>
+
+[kirell benzi's artwork](https://www.kirellbenzi.com/art/)
+</br>
+
+[yield-curve by NYT](https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html)
 
 <h6>Some visual examples:</h6>
 
@@ -157,9 +166,12 @@ Below you will find some examples from websites and well-known magazines :
 
 ![picture alt](https://image.noelshack.com/fichiers/2020/14/4/1585847056-whatsapp-image-2020-03-30-at-12-22-29.jpeg)
 
-<ins>Mapping politically polarized cities</ins>
+<ins>Mapping politically polarized cities (US)</ins>
 
 ![picture alt](https://i0.wp.com/flowingdata.com/wp-content/uploads/2019/05/Political-polarization-by-FiveThirtyEight.png?w=1200&ssl=1)
 
+<ins>Political Ideology Visualization (US)</ins>
+
+![picture alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fdeeper-insight%2Fapplication-of-data-visualization-political-polarization-in-the-american-public-77cfa5dbbf0b&psig=AOvVaw2d25MSd3sYy1PIvujPoJuA&ust=1586007762226000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCF0b6xzOgCFQAAAAAdAAAAABAR)
 
 <h5>This dataset was not explored before in any other context (ML or ADA...)</h5>
