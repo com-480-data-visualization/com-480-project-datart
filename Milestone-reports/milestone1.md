@@ -1,10 +1,10 @@
 # MILESTONE 1
 <h3>1. DATASETS:</h3>
 
-<p>The datasets for this vizualisation are splitted between the two countries we will base our vizualisation on. 
+<p>For our Data Visualization project, we will study two countries : France and UK. 
 On one hand, we will process the data of the French election from 2002 to 2017 in parallel of the evolution of the French population per region and per department. 
 On the other hand, we will process the equivalent datasets for the United Kingdoms. 
-We obtained those datasets from french and UK government agencies. Hence, the quality of each dataset is overall trustworthy and great.
+We obtained those datasets from french and UK government agencies. Hence, the quality of each dataset is overall trusted and reliable.
 
 </p>
 
@@ -14,8 +14,7 @@ The datasets describing the results of the French election provides the essentia
 Each file regroup the election results per region and per department in France for a specific year. 
 However, key information is missing such as the political party of the candidates, those will need to be added in the preprocessing. 
 Moreover, the data are not organized the same way between each file (i.e each election) and the preprocessing part will need to take care of the differences to gather the data. 
-One important thing to note is the difference between the region for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections. 
-Merge the results for the region from 2002 to 2015 will be a huge part of the preprocessing. 
+One important thing to note is the difference between the regions for each year. The French regions have been merged in 2015 and therefore, the regional results of the election between 2002 and 2015 are different from the 2017 elections, so it needs some preprocessing. 
 
 <h5> French population</h5>
 
@@ -30,7 +29,7 @@ Also, we had to clean and pre-process this data in order to group it in one sing
 <h5> UK election</h5>
 
 The UK datasets contains every election result  contained in one single file.Therefore, the format and the organization of the different data over the years is very similar. Way less preprocessing is needed. 
-However, some counties (small region in the UK) exist in 2001 and disappear after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. 
+However, some counties (small regions in the UK) exist in 2001 and disappeared after 2005. Moreover, the fact that the UK elections include 3 different countries (England, Scotland and Ireland) make the data way sparser. 
 The preprocessing will need to take care of those specificities to gather every election with the wanted information in one single file. 
 
 <h5> UK population </h5>
@@ -60,7 +59,7 @@ In 3 out of 4 of those dataset, we can find the same features:
 * one categorical column for the region (or department) and the region's (or department's) code
 * one integer and two float columns per candidate for the number of voters per region/department and for the vote shares
 * the rests are float or integer column for the number of white votes or total votes
-For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailled. 
+For the 2017 election dataset, we can find more float/integer columns as the white votes are more detailed. 
 
 Each of those dataset is complete without any missing value with the following size after preprocessing:
 
@@ -95,7 +94,7 @@ We can thus find in the dataset the following dataframes:
 
 This format is repeated for every year. 
 After preprocessing, the file for departments is 50x26 and for the region 13x26 
-Otherwise, the dataset is really complete without any missing values. 
+Otherwise, the dataset is truly complete without any missing values. 
 
 <h5> UK population</h5>
 
