@@ -1,0 +1,116 @@
+{
+    "Feuil1": [
+        {
+            "Parti": "ExtRight",
+            "PartiName":"Front National",
+            "Department":"Aisne, Pas-de-Calais, Haute-Marne",
+            "Side":"Extreme Right",
+            "Revenue": "-0.0006017",
+            
+            "TauxChomage": "0.0292984",
+            "MigrantsRate": "-0.1951640",
+            "Score":"21.30",
+            "Candidat":"MARINE LE PEN",
+            "CoefRT": "1",
+            "CoefRM": "1",
+            "CoefTM":"1"
+            },
+        {
+            "Parti": "Right",
+            
+            "Department":"Hauts-de-Seine, Sarthe, Mayenne",
+            "PartiName":"Les Républicains",
+            "Side":"Right",
+            "Revenue": "0.0007958",
+            "Score":"20.01",
+            "TauxChomage": "-0.2515104",
+            "MigrantsRate": "-0.1006791",
+            "Candidat":"FRANCOIS FILLON",
+            "CoefRT": "2",
+            "CoefRM": "2",
+            "CoefTM":"1"
+              },
+        {
+            "Parti": "Center",
+            
+             "Department":"Paris, Hauts-de-Seine, Ile-et-Vilaine",
+             "Score":"24.01",
+            "PartiName":"La République en Marche",
+            "Side":"Center-right",
+            "Revenue": "0.0004412",
+            "TauxChomage": " -0.4201149 ",
+            "MigrantsRate": "0.0744296",
+            "Candidat":"EMMANUEL MACRON",
+            "CoefRT": "2",
+            "CoefRM": "1",
+            "CoefTM":"2" 
+        },
+        {
+            "Parti": "Left",
+            "PartiName":"Parti Socialiste",
+            "Department":"Haut-Corse, Paris, Ile-et-Vilaine",
+            "Score":"6.36",
+            
+            "Side":"Left",
+            "Revenue": "0.00001389",
+            "TauxChomage": "-0.06561",
+            "MigrantsRate": "5.650e-02",
+              "Candidat":"BENOIT HAMON",
+             "CoefRT": "0",
+            "CoefRM": "0",
+            "CoefTM":"2"},
+        {
+            "Parti": "ExtLeft",
+            "PartiName":"La France Insoumise",
+            "Department":"Seine-Saint-Denis, Ariège, Lot",
+            "Score":"19,58",
+           
+            "Side":"Extreme Left",
+            "Revenue": "-0.0006276",
+            "TauxChomage": "-0.1598621",
+            "MigrantsRate": "0.3091435",
+             "Candidat":"JL. MELENCHON",
+             "CoefRT": "0",
+            "CoefRM": "2",
+            "CoefTM":"1"},
+        {
+            "Parti": "Abstention",
+            "Department":"Martinique, La Réunion, Cotes-d'Armor",
+            "Score":"22.22",
+            
+            "PartiName":"Abstentionist",
+            "Revenue": "0.0003567",
+            "TauxChomage": "1.1062898",
+            "MigrantsRate": "-0.0630517",
+            "Candidat":"",
+             "CoefRT": "1",
+            "CoefRM": "1",
+            "CoefTM":"1"},
+        {
+            "Parti": "Ind",
+            "Department":"Pyrénées-Atlantiques, Aveyron, Gers",
+           
+            "Score":"8,74",
+            "PartiName":"INDEPENDANTS",
+            "Revenue": "-0.0003784",
+            "TauxChomage": "-0.2385",
+            "MigrantsRate": "-0.08118",
+            "Candidat":"N. Dupont-Aignan, J. Cheminade, J. Lassale, ...",
+             "CoefRT": "2",
+            "CoefRM": "1",
+            "CoefTM":"2"},
+        {
+            "Parti": "White",
+            "Department":"Martinie, Doubs, Haute-Loire",
+            "Score":"1.3",
+           
+            "PartiName":"WHITE VOTERS",
+            "Revenue": "-0.00003548",
+            "TauxChomage": "-0.002633",
+            "MigrantsRate": "-0.01711",
+            "Candidat":"",
+             "CoefRT": "1",
+            "CoefRM": "2",
+            "CoefTM":"1"   }
+    ]
+}
