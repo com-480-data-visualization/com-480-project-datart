@@ -1,0 +1,23 @@
+Résultats des cantonales 2011 1er tour (20 mars 2011)
+
+citation : Résultats des élections cantonales premier tour du 20/03/2011, cdsp_cant2011t1_canton.xls [fichier informatique], Ministère de l'Intérieur [producteur], Centre de Données Socio-Politiques [diffuseur], Mai 2011.
+
+Nuances :
+EXG	Extrême gauche
+COM	Communiste
+PG	Parti de Gauche
+SOC	Socialiste
+RDG	Radical de Gauche
+DVG	Divers gauche
+VEC	Europe Ecologie / Les Verts
+ECO	Ecologiste
+REG	Régionaliste
+AUT	Autres
+MODM	MoDem
+M-NC	Majorité présidentielle
+M	Autres candidats majorité présidentielle
+UMP	Union pour un Mouvement Populaire
+DVD	Divers droite
+FN	Front National
+EXD	Extrême droite
+
