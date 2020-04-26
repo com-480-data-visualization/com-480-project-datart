@@ -20,8 +20,8 @@ d3.csv('viz2.csv', createChart);
 function createChart(data) {
   let regions = [];
   let charts = [];
-  let maxDataPoint = 0;
-  let minDataPoint = 100; // the init value just have to be big enough to be less than the highest revenue
+  let maxDataPoint = 10000;
+  let minDataPoint = 15000; // the init value just have to be big enough to be less than the highest revenue
 
   // Get regions
   for (let prop in data[0]) {
