@@ -1,0 +1,267 @@
+region,taxes,Revenu disponible brut,year
+Auvergne-Rhône-Alpes,2083.0,16411.0,2002
+Bourgogne-Franche-Comté,1845.0,15911.0,2002
+Bretagne,1810.0,15161.0,2002
+Centre-Val de Loire,1965.0,16178.0,2002
+Corse,1681.0,14022.0,2002
+Grand Est,1980.0,15742.0,2002
+Hauts-de-France,1741.0,14084.0,2002
+Ile-de-France,3791.0,20301.0,2002
+Normandie,1812.0,15389.0,2002
+Nouvelle-Aquitaine,1853.0,15649.0,2002
+Occitanie,1813.0,15064.0,2002
+Pays de la Loire,1812.0,15274.0,2002
+Provence-Alpes-Côte d'Azur,2199.0,16121.0,2002
+DOM,636.0,10071.0,2002
+Guadeloupe,779.0,9768.0,2002
+Martinique,1025.0,11617.0,2002
+Guyane,728.0,8544.0,2002
+La Réunion,450.0,11367.0,2002
+Mayotte,97.0,2713.0,2002
+Auvergne-Rhône-Alpes,2150.0,16729.0,2003
+Bourgogne-Franche-Comté,1915.0,16278.0,2003
+Bretagne,1874.0,15492.0,2003
+Centre-Val de Loire,2035.0,16560.0,2003
+Corse,1761.0,14448.0,2003
+Grand Est,2055.0,16003.0,2003
+Hauts-de-France,1822.0,14422.0,2003
+Ile-de-France,3803.0,20509.0,2003
+Normandie,1882.0,15827.0,2003
+Nouvelle-Aquitaine,1930.0,15921.0,2003
+Occitanie,1898.0,15325.0,2003
+Pays de la Loire,1892.0,15551.0,2003
+Provence-Alpes-Côte d'Azur,2298.0,16475.0,2003
+DOM,671.0,10418.0,2003
+Guadeloupe,855.0,10206.0,2003
+Martinique,1088.0,11995.0,2003
+Guyane,696.0,8346.0,2003
+La Réunion,481.0,11844.0,2003
+Mayotte,81.0,3008.0,2003
+Auvergne-Rhône-Alpes,2208.0,17344.0,2004
+Bourgogne-Franche-Comté,1969.0,16928.0,2004
+Bretagne,1938.0,16006.0,2004
+Centre-Val de Loire,2079.0,17214.0,2004
+Corse,1860.0,14836.0,2004
+Grand Est,2106.0,16709.0,2004
+Hauts-de-France,1873.0,14958.0,2004
+Ile-de-France,3845.0,21315.0,2004
+Normandie,1950.0,16386.0,2004
+Nouvelle-Aquitaine,1988.0,16498.0,2004
+Occitanie,1952.0,15782.0,2004
+Pays de la Loire,1948.0,16106.0,2004
+Provence-Alpes-Côte d'Azur,2371.0,17011.0,2004
+DOM,698.0,10852.0,2004
+Guadeloupe,923.0,10788.0,2004
+Martinique,1110.0,12490.0,2004
+Guyane,680.0,8611.0,2004
+La Réunion,510.0,12293.0,2004
+Mayotte,86.0,3268.0,2004
+Auvergne-Rhône-Alpes,2318.0,17750.0,2005
+Bourgogne-Franche-Comté,2069.0,17307.0,2005
+Bretagne,2065.0,16628.0,2005
+Centre-Val de Loire,2177.0,17463.0,2005
+Corse,1985.0,15210.0,2005
+Grand Est,2186.0,16886.0,2005
+Hauts-de-France,1980.0,15340.0,2005
+Ile-de-France,3993.0,21458.0,2005
+Normandie,2042.0,16776.0,2005
+Nouvelle-Aquitaine,2098.0,17007.0,2005
+Occitanie,2080.0,16289.0,2005
+Pays de la Loire,2059.0,16573.0,2005
+Provence-Alpes-Côte d'Azur,2511.0,17383.0,2005
+DOM,748.0,11335.0,2005
+Guadeloupe,965.0,11199.0,2005
+Martinique,1194.0,12898.0,2005
+Guyane,838.0,8952.0,2005
+La Réunion,532.0,12918.0,2005
+Mayotte,91.0,3834.0,2005
+Auvergne-Rhône-Alpes,2407.0,18522.0,2006
+Bourgogne-Franche-Comté,2093.0,17849.0,2006
+Bretagne,2111.0,17505.0,2006
+Centre-Val de Loire,2234.0,18213.0,2006
+Corse,2098.0,16480.0,2006
+Grand Est,2237.0,17529.0,2006
+Hauts-de-France,2030.0,16076.0,2006
+Ile-de-France,4144.0,21679.0,2006
+Normandie,2086.0,17405.0,2006
+Nouvelle-Aquitaine,2176.0,17971.0,2006
+Occitanie,2149.0,17269.0,2006
+Pays de la Loire,2132.0,17532.0,2006
+Provence-Alpes-Côte d'Azur,2587.0,17880.0,2006
+DOM,785.0,11944.0,2006
+Guadeloupe,1019.0,11986.0,2006
+Martinique,1271.0,13675.0,2006
+Guyane,811.0,9488.0,2006
+La Réunion,575.0,13513.0,2006
+Mayotte,85.0,4035.0,2006
+Auvergne-Rhône-Alpes,2478.0,19295.0,2007
+Bourgogne-Franche-Comté,2151.0,18764.0,2007
+Bretagne,2150.0,18088.0,2007
+Centre-Val de Loire,2264.0,18912.0,2007
+Corse,2132.0,17336.0,2007
+Grand Est,2277.0,18190.0,2007
+Hauts-de-France,2069.0,16752.0,2007
+Ile-de-France,4255.0,23194.0,2007
+Normandie,2134.0,18061.0,2007
+Nouvelle-Aquitaine,2216.0,18621.0,2007
+Occitanie,2197.0,18001.0,2007
+Pays de la Loire,2183.0,18175.0,2007
+Provence-Alpes-Côte d'Azur,2634.0,18587.0,2007
+DOM,896.0,12182.0,2007
+Guadeloupe,1173.0,11721.0,2007
+Martinique,1551.0,13875.0,2007
+Guyane,915.0,9313.0,2007
+La Réunion,615.0,14155.0,2007
+Mayotte,90.0,4382.0,2007
+Auvergne-Rhône-Alpes,2578.0,19746.0,2008
+Bourgogne-Franche-Comté,2231.0,18988.0,2008
+Bretagne,2271.0,18827.0,2008
+Centre-Val de Loire,2385.0,19651.0,2008
+Corse,2261.0,18282.0,2008
+Grand Est,2381.0,18458.0,2008
+Hauts-de-France,2217.0,17322.0,2008
+Ile-de-France,4501.0,23535.0,2008
+Normandie,2247.0,18997.0,2008
+Nouvelle-Aquitaine,2333.0,19111.0,2008
+Occitanie,2296.0,18323.0,2008
+Pays de la Loire,2297.0,18832.0,2008
+Provence-Alpes-Côte d'Azur,2803.0,19217.0,2008
+DOM,999.0,12537.0,2008
+Guadeloupe,1256.0,13388.0,2008
+Martinique,1338.0,13909.0,2008
+Guyane,938.0,8986.0,2008
+La Réunion,922.0,14164.0,2008
+Mayotte,159.0,5102.0,2008
+Auvergne-Rhône-Alpes,2484.0,19612.0,2009
+Bourgogne-Franche-Comté,2198.0,18899.0,2009
+Bretagne,2233.0,18826.0,2009
+Centre-Val de Loire,2335.0,19468.0,2009
+Corse,2311.0,18548.0,2009
+Grand Est,2319.0,18372.0,2009
+Hauts-de-France,2158.0,17204.0,2009
+Ile-de-France,4138.0,23414.0,2009
+Normandie,2205.0,18804.0,2009
+Nouvelle-Aquitaine,2280.0,18986.0,2009
+Occitanie,2262.0,18372.0,2009
+Pays de la Loire,2241.0,18607.0,2009
+Provence-Alpes-Côte d'Azur,2766.0,19283.0,2009
+DOM,997.0,12819.0,2009
+Guadeloupe,1261.0,13553.0,2009
+Martinique,1365.0,14345.0,2009
+Guyane,897.0,9493.0,2009
+La Réunion,921.0,14536.0,2009
+Mayotte,152.0,4907.0,2009
+Auvergne-Rhône-Alpes,2557.0,19969.0,2010
+Bourgogne-Franche-Comté,2233.0,19333.0,2010
+Bretagne,2289.0,19113.0,2010
+Centre-Val de Loire,2388.0,19913.0,2010
+Corse,2402.0,18641.0,2010
+Grand Est,2374.0,18585.0,2010
+Hauts-de-France,2208.0,17455.0,2010
+Ile-de-France,4201.0,23962.0,2010
+Normandie,2246.0,19079.0,2010
+Nouvelle-Aquitaine,2331.0,19309.0,2010
+Occitanie,2326.0,18662.0,2010
+Pays de la Loire,2285.0,18912.0,2010
+Provence-Alpes-Côte d'Azur,2841.0,19695.0,2010
+DOM,849.0,13414.0,2010
+Guadeloupe,1215.0,14263.0,2010
+Martinique,1317.0,15521.0,2010
+Guyane,835.0,9984.0,2010
+La Réunion,627.0,15008.0,2010
+Mayotte,127.0,5034.0,2010
+Auvergne-Rhône-Alpes,2662.0,20370.0,2011
+Bourgogne-Franche-Comté,2352.0,19823.0,2011
+Bretagne,2396.0,19493.0,2011
+Centre-Val de Loire,2483.0,20136.0,2011
+Corse,2490.0,18831.0,2011
+Grand Est,2502.0,19058.0,2011
+Hauts-de-France,2295.0,17551.0,2011
+Ile-de-France,4450.0,24138.0,2011
+Normandie,2332.0,19315.0,2011
+Nouvelle-Aquitaine,2430.0,19676.0,2011
+Occitanie,2422.0,18938.0,2011
+Pays de la Loire,2372.0,19136.0,2011
+Provence-Alpes-Côte d'Azur,3010.0,20125.0,2011
+DOM,871.0,13687.0,2011
+Guadeloupe,1239.0,14493.0,2011
+Martinique,1340.0,15824.0,2011
+Guyane,845.0,10061.0,2011
+La Réunion,657.0,15419.0,2011
+Mayotte,151.0,5310.0,2011
+Auvergne-Rhône-Alpes,2903.0,20448.0,2012
+Bourgogne-Franche-Comté,2549.0,19695.0,2012
+Bretagne,2583.0,19453.0,2012
+Centre-Val de Loire,2672.0,20004.0,2012
+Corse,2730.0,19126.0,2012
+Grand Est,2691.0,18976.0,2012
+Hauts-de-France,2464.0,17568.0,2012
+Ile-de-France,4891.0,24200.0,2012
+Normandie,2530.0,19402.0,2012
+Nouvelle-Aquitaine,2623.0,19645.0,2012
+Occitanie,2616.0,18938.0,2012
+Pays de la Loire,2559.0,19191.0,2012
+Provence-Alpes-Côte d'Azur,3246.0,20110.0,2012
+DOM,885.0,13949.0,2012
+Guadeloupe,1264.0,14782.0,2012
+Martinique,1366.0,16140.0,2012
+Guyane,868.0,10317.0,2012
+La Réunion,671.0,15748.0,2012
+Mayotte,147.0,5412.0,2012
+Auvergne-Rhône-Alpes,3023.0,20468.0,2013
+Bourgogne-Franche-Comté,2658.0,19771.0,2013
+Bretagne,2678.0,19397.0,2013
+Centre-Val de Loire,2790.0,19993.0,2013
+Corse,2847.0,19127.0,2013
+Grand Est,2824.0,19026.0,2013
+Hauts-de-France,2554.0,17530.0,2013
+Ile-de-France,5142.0,23907.0,2013
+Normandie,2630.0,19429.0,2013
+Nouvelle-Aquitaine,2730.0,19508.0,2013
+Occitanie,2713.0,18894.0,2013
+Pays de la Loire,2657.0,19303.0,2013
+Provence-Alpes-Côte d'Azur,3386.0,20179.0,2013
+DOM,890.0,14119.0,2013
+Guadeloupe,1273.0,14893.0,2013
+Martinique,1382.0,16319.0,2013
+Guyane,867.0,10291.0,2013
+La Réunion,685.0,16075.0,2013
+Mayotte,138.0,5723.0,2013
+Auvergne-Rhône-Alpes,3070.0,20593.0,2014
+Bourgogne-Franche-Comté,2713.0,20063.0,2014
+Bretagne,2697.0,19530.0,2014
+Centre-Val de Loire,2832.0,20021.0,2014
+Corse,2969.0,18520.0,2014
+Grand Est,2881.0,19189.0,2014
+Hauts-de-France,2589.0,17637.0,2014
+Ile-de-France,5150.0,24084.0,2014
+Normandie,2672.0,19588.0,2014
+Nouvelle-Aquitaine,2772.0,19742.0,2014
+Occitanie,2750.0,19019.0,2014
+Pays de la Loire,2705.0,19302.0,2014
+Provence-Alpes-Côte d'Azur,3415.0,20177.0,2014
+DOM,905.0,14551.0,2014
+Guadeloupe,1300.0,15205.0,2014
+Martinique,1412.0,16682.0,2014
+Guyane,884.0,10522.0,2014
+La Réunion,709.0,16634.0,2014
+Mayotte,102.0,6459.0,2014
+Auvergne-Rhône-Alpes,3088.0,20664.0,2015
+Bourgogne-Franche-Comté,2754.0,20194.0,2015
+Bretagne,2738.0,19749.0,2015
+Centre-Val de Loire,2874.0,20199.0,2015
+Corse,2944.0,18832.0,2015
+Grand Est,2923.0,19338.0,2015
+Hauts-de-France,2627.0,17794.0,2015
+Ile-de-France,5235.0,24190.0,2015
+Normandie,2712.0,19698.0,2015
+Nouvelle-Aquitaine,2799.0,19786.0,2015
+Occitanie,2768.0,19094.0,2015
+Pays de la Loire,2720.0,19484.0,2015
+Provence-Alpes-Côte d'Azur,3466.0,20370.0,2015
+DOM,925.0,14892.0,2015
+Guadeloupe,1341.0,15697.0,2015
+Martinique,1453.0,17165.0,2015
+Guyane,889.0,10589.0,2015
+La Réunion,726.0,17036.0,2015
+Mayotte,116.0,6747.0,2015
