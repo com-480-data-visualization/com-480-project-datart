@@ -63,7 +63,7 @@ body {
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
-var margin = {top: 40, right: 40, bottom: 40, left: 100},
+var margin = {top: 40, right:40, bottom: 40, left: 100},
     dim = Math.min(parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height"))),
     width = dim - margin.left - margin.right,
     height = dim - margin.top - margin.bottom;
@@ -138,7 +138,7 @@ d3.csv("salary-contribution.csv", function(error, data) {
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      .attr("y", -50)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Social Contribution (in euros)")
