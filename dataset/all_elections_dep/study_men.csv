@@ -1,0 +1,325 @@
+,gender,year,region,total_men
+0,male,2002,Auvergne-Rhône-Alpes,3464799
+1,male,2002,Bourgogne-Franche-Comté,1341369
+2,male,2002,Bretagne,1447224
+3,male,2002,Centre-Val-de-Loire,1204878
+4,male,2002,Corse,133448
+5,male,2002,DOM,820329
+6,male,2002,France métropolitaine,28939004
+7,male,2002,France métropolitaine et DOM,29759333
+8,male,2002,Grand Est,2654928
+9,male,2002,Guadeloupe ,186827
+10,male,2002,Guyane,88372
+11,male,2002,Hauts-de-France,2853417
+12,male,2002,La Réunion,361981
+13,male,2002,Martinique ,183149
+14,male,2002,Normandie,1567057
+15,male,2002,Nouvelle-Aquitaine,2600622
+16,male,2002,Occitanie,2432195
+17,male,2002,Pays de la Loire,1615448
+18,male,2002,Provence-Alpes-Côte d'Azur,2214503
+19,male,2002,Île-de-France,5409116
+20,male,2003,Auvergne-Rhône-Alpes,3492239
+21,male,2003,Bourgogne-Franche-Comté,1343941
+22,male,2003,Bretagne,1460571
+23,male,2003,Centre-Val-de-Loire,1209734
+24,male,2003,Corse,135747
+25,male,2003,DOM,829533
+26,male,2003,France métropolitaine,29127811
+27,male,2003,France métropolitaine et DOM,29957344
+28,male,2003,Grand Est,2660772
+29,male,2003,Guadeloupe ,187151
+30,male,2003,Guyane,92273
+31,male,2003,Hauts-de-France,2854849
+32,male,2003,La Réunion,366374
+33,male,2003,Martinique ,183735
+34,male,2003,Normandie,1569796
+35,male,2003,Nouvelle-Aquitaine,2621715
+36,male,2003,Occitanie,2463851
+37,male,2003,Pays de la Loire,1631258
+38,male,2003,Provence-Alpes-Côte d'Azur,2234814
+39,male,2003,Île-de-France,5448524
+40,male,2004,Auvergne-Rhône-Alpes,3519883
+41,male,2004,Bourgogne-Franche-Comté,1346391
+42,male,2004,Bretagne,1474225
+43,male,2004,Centre-Val-de-Loire,1214167
+44,male,2004,Corse,138054
+45,male,2004,DOM,839261
+46,male,2004,France métropolitaine,29312672
+47,male,2004,France métropolitaine et DOM,30151933
+48,male,2004,Grand Est,2666070
+49,male,2004,Guadeloupe ,187603
+50,male,2004,Guyane,96300
+51,male,2004,Hauts-de-France,2855930
+52,male,2004,La Réunion,371055
+53,male,2004,Martinique ,184303
+54,male,2004,Normandie,1572491
+55,male,2004,Nouvelle-Aquitaine,2642237
+56,male,2004,Occitanie,2495776
+57,male,2004,Pays de la Loire,1646839
+58,male,2004,Provence-Alpes-Côte d'Azur,2254791
+59,male,2004,Île-de-France,5485818
+60,male,2005,Auvergne-Rhône-Alpes,3549211
+61,male,2005,Bourgogne-Franche-Comté,1349525
+62,male,2005,Bretagne,1488490
+63,male,2005,Centre-Val-de-Loire,1219529
+64,male,2005,Corse,140447
+65,male,2005,DOM,848231
+66,male,2005,France métropolitaine,29517361
+67,male,2005,France métropolitaine et DOM,30365592
+68,male,2005,Grand Est,2672623
+69,male,2005,Guadeloupe ,188158
+70,male,2005,Guyane,99223
+71,male,2005,Hauts-de-France,2858868
+72,male,2005,La Réunion,376009
+73,male,2005,Martinique ,184841
+74,male,2005,Normandie,1575674
+75,male,2005,Nouvelle-Aquitaine,2665474
+76,male,2005,Occitanie,2529855
+77,male,2005,Pays de la Loire,1663690
+78,male,2005,Provence-Alpes-Côte d'Azur,2276768
+79,male,2005,Île-de-France,5527207
+80,male,2006,Auvergne-Rhône-Alpes,3577680
+81,male,2006,Bourgogne-Franche-Comté,1353959
+82,male,2006,Bretagne,1501294
+83,male,2006,Centre-Val-de-Loire,1224184
+84,male,2006,Corse,143084
+85,male,2006,DOM,855633
+86,male,2006,France métropolitaine,29714411
+87,male,2006,France métropolitaine et DOM,30570044
+88,male,2006,Grand Est,2677980
+89,male,2006,Guadeloupe ,188772
+90,male,2006,Guyane,102032
+91,male,2006,Hauts-de-France,2861075
+92,male,2006,La Réunion,379210
+93,male,2006,Martinique ,185619
+94,male,2006,Normandie,1579337
+95,male,2006,Nouvelle-Aquitaine,2686595
+96,male,2006,Occitanie,2562734
+97,male,2006,Pays de la Loire,1680585
+98,male,2006,Provence-Alpes-Côte d'Azur,2295663
+99,male,2006,Île-de-France,5570241
+100,male,2007,Auvergne-Rhône-Alpes,3600760
+101,male,2007,Bourgogne-Franche-Comté,1360927
+102,male,2007,Bretagne,1514671
+103,male,2007,Centre-Val-de-Loire,1228011
+104,male,2007,Corse,145635
+105,male,2007,DOM,864176
+106,male,2007,France métropolitaine,29917578
+107,male,2007,France métropolitaine et DOM,30781754
+108,male,2007,Grand Est,2686710
+109,male,2007,Guadeloupe ,188325
+110,male,2007,Guyane,105546
+111,male,2007,Hauts-de-France,2867834
+112,male,2007,La Réunion,385335
+113,male,2007,Martinique ,184970
+114,male,2007,Normandie,1585457
+115,male,2007,Nouvelle-Aquitaine,2713176
+116,male,2007,Occitanie,2593477
+117,male,2007,Pays de la Loire,1697147
+118,male,2007,Provence-Alpes-Côte d'Azur,2321362
+119,male,2007,Île-de-France,5602411
+120,male,2008,Auvergne-Rhône-Alpes,3628373
+121,male,2008,Bourgogne-Franche-Comté,1365513
+122,male,2008,Bretagne,1529468
+123,male,2008,Centre-Val-de-Loire,1230640
+124,male,2008,Corse,147832
+125,male,2008,DOM,873540
+126,male,2008,France métropolitaine,30084747
+127,male,2008,France métropolitaine et DOM,30958287
+128,male,2008,Grand Est,2693221
+129,male,2008,Guadeloupe ,188389
+130,male,2008,Guyane,108673
+131,male,2008,Hauts-de-France,2872438
+132,male,2008,La Réunion,392041
+133,male,2008,Martinique ,184437
+134,male,2008,Normandie,1591747
+135,male,2008,Nouvelle-Aquitaine,2732901
+136,male,2008,Occitanie,2619187
+137,male,2008,Pays de la Loire,1710307
+138,male,2008,Provence-Alpes-Côte d'Azur,2331735
+139,male,2008,Île-de-France,5631385
+140,male,2009,Auvergne-Rhône-Alpes,3658116
+141,male,2009,Bourgogne-Franche-Comté,1369837
+142,male,2009,Bretagne,1541358
+143,male,2009,Centre-Val-de-Loire,1233806
+144,male,2009,Corse,149514
+145,male,2009,DOM,878411
+146,male,2009,France métropolitaine,30247434
+147,male,2009,France métropolitaine et DOM,31125845
+148,male,2009,Grand Est,2697718
+149,male,2009,Guadeloupe ,187867
+150,male,2009,Guyane,111201
+151,male,2009,Hauts-de-France,2880018
+152,male,2009,La Réunion,395688
+153,male,2009,Martinique ,183655
+154,male,2009,Normandie,1597185
+155,male,2009,Nouvelle-Aquitaine,2751618
+156,male,2009,Occitanie,2646299
+157,male,2009,Pays de la Loire,1724639
+158,male,2009,Provence-Alpes-Côte d'Azur,2335555
+159,male,2009,Île-de-France,5661771
+160,male,2010,Auvergne-Rhône-Alpes,3688963
+161,male,2010,Bourgogne-Franche-Comté,1371655
+162,male,2010,Bretagne,1553248
+163,male,2010,Centre-Val-de-Loire,1238673
+164,male,2010,Corse,151633
+165,male,2010,DOM,881582
+166,male,2010,France métropolitaine,30397950
+167,male,2010,France métropolitaine et DOM,31279532
+168,male,2010,Grand Est,2698974
+169,male,2010,Guadeloupe ,187912
+170,male,2010,Guyane,113607
+171,male,2010,Hauts-de-France,2884386
+172,male,2010,La Réunion,397953
+173,male,2010,Martinique ,182110
+174,male,2010,Normandie,1601032
+175,male,2010,Nouvelle-Aquitaine,2769626
+176,male,2010,Occitanie,2668025
+177,male,2010,Pays de la Loire,1739864
+178,male,2010,Provence-Alpes-Côte d'Azur,2340637
+179,male,2010,Île-de-France,5691234
+180,male,2011,Auvergne-Rhône-Alpes,3716132
+181,male,2011,Bourgogne-Franche-Comté,1372836
+182,male,2011,Bretagne,1563341
+183,male,2011,Centre-Val-de-Loire,1242058
+184,male,2011,Corse,154075
+185,male,2011,DOM,887329
+186,male,2011,France métropolitaine,30553628
+187,male,2011,France métropolitaine et DOM,31440957
+188,male,2011,Grand Est,2703035
+189,male,2011,Guadeloupe ,187782
+190,male,2011,Guyane,117732
+191,male,2011,Hauts-de-France,2888235
+192,male,2011,La Réunion,401139
+193,male,2011,Martinique ,180676
+194,male,2011,Normandie,1603920
+195,male,2011,Nouvelle-Aquitaine,2783870
+196,male,2011,Occitanie,2695768
+197,male,2011,Pays de la Loire,1754154
+198,male,2011,Provence-Alpes-Côte d'Azur,2350713
+199,male,2011,Île-de-France,5725491
+200,male,2012,Auvergne-Rhône-Alpes,3745543
+201,male,2012,Bourgogne-Franche-Comté,1373026
+202,male,2012,Bretagne,1573097
+203,male,2012,Centre-Val-de-Loire,1244834
+204,male,2012,Corse,154768
+205,male,2012,DOM,888904
+206,male,2012,France métropolitaine,30699170
+207,male,2012,France métropolitaine et DOM,31588074
+208,male,2012,Grand Est,2706586
+209,male,2012,Guadeloupe ,187038
+210,male,2012,Guyane,119538
+211,male,2012,Hauts-de-France,2895247
+212,male,2012,La Réunion,403504
+213,male,2012,Martinique ,178824
+214,male,2012,Normandie,1607509
+215,male,2012,Nouvelle-Aquitaine,2800321
+216,male,2012,Occitanie,2721178
+217,male,2012,Pays de la Loire,1769777
+218,male,2012,Provence-Alpes-Côte d'Azur,2360622
+219,male,2012,Île-de-France,5746662
+220,male,2013,Auvergne-Rhône-Alpes,3777333
+221,male,2013,Bourgogne-Franche-Comté,1374617
+222,male,2013,Bretagne,1584072
+223,male,2013,Centre-Val-de-Loire,1248176
+224,male,2013,Corse,156265
+225,male,2013,DOM,889416
+226,male,2013,France métropolitaine,30866009
+227,male,2013,France métropolitaine et DOM,31755425
+228,male,2013,Grand Est,2708744
+229,male,2013,Guadeloupe ,186077
+230,male,2013,Guyane,121653
+231,male,2013,Hauts-de-France,2902891
+232,male,2013,La Réunion,403731
+233,male,2013,Martinique ,177955
+234,male,2013,Normandie,1611037
+235,male,2013,Nouvelle-Aquitaine,2819529
+236,male,2013,Occitanie,2748268
+237,male,2013,Pays de la Loire,1784376
+238,male,2013,Provence-Alpes-Côte d'Azur,2371364
+239,male,2013,Île-de-France,5779337
+240,male,2014,Auvergne-Rhône-Alpes,3807345
+241,male,2014,Bourgogne-Franche-Comté,1375247
+242,male,2014,Bretagne,1592810
+243,male,2014,Centre-Val-de-Loire,1251248
+244,male,2014,Corse,157962
+245,male,2014,DOM,1003203
+246,male,2014,France métropolitaine,31024924
+247,male,2014,France métropolitaine et DOM,32028127
+248,male,2014,Grand Est,2709658
+249,male,2014,Guadeloupe ,184672
+250,male,2014,Guyane,125189
+251,male,2014,Hauts-de-France,2914104
+252,male,2014,La Réunion,407307
+253,male,2014,Martinique ,177502
+254,male,2014,Mayotte,108533
+255,male,2014,Normandie,1614723
+256,male,2014,Nouvelle-Aquitaine,2836330
+257,male,2014,Occitanie,2770465
+258,male,2014,Pays de la Loire,1798587
+259,male,2014,Provence-Alpes-Côte d'Azur,2386257
+260,male,2014,Île-de-France,5810188
+261,male,2015,Auvergne-Rhône-Alpes,3832981
+262,male,2015,Bourgogne-Franche-Comté,1374446
+263,male,2015,Bretagne,1601207
+264,male,2015,Centre-Val-de-Loire,1251087
+265,male,2015,Corse,159426
+266,male,2015,DOM,1009597
+267,male,2015,France métropolitaine,31147386
+268,male,2015,France métropolitaine et DOM,32156983
+269,male,2015,Grand Est,2710876
+270,male,2015,Guadeloupe ,183210
+271,male,2015,Guyane,128882
+272,male,2015,Hauts-de-France,2914206
+273,male,2015,La Réunion,410762
+274,male,2015,Martinique ,176077
+275,male,2015,Mayotte,110666
+276,male,2015,Normandie,1615958
+277,male,2015,Nouvelle-Aquitaine,2850487
+278,male,2015,Occitanie,2791915
+279,male,2015,Pays de la Loire,1811483
+280,male,2015,Provence-Alpes-Côte d'Azur,2398351
+281,male,2015,Île-de-France,5834963
+282,male,2016,Auvergne-Rhône-Alpes,3851240
+283,male,2016,Bourgogne-Franche-Comté,1372792
+284,male,2016,Bretagne,1605994
+285,male,2016,Centre-Val-de-Loire,1250188
+286,male,2016,Corse,160799
+287,male,2016,DOM,1013885
+288,male,2016,France métropolitaine,31216202
+289,male,2016,France métropolitaine et DOM,32230087
+290,male,2016,Grand Est,2708524
+291,male,2016,Guadeloupe ,181324
+292,male,2016,Guyane,133659
+293,male,2016,Hauts-de-France,2912432
+294,male,2016,La Réunion,410558
+295,male,2016,Martinique ,173485
+296,male,2016,Mayotte,114859
+297,male,2016,Normandie,1613308
+298,male,2016,Nouvelle-Aquitaine,2860186
+299,male,2016,Occitanie,2807749
+300,male,2016,Pays de la Loire,1820433
+301,male,2016,Provence-Alpes-Côte d'Azur,2403472
+302,male,2016,Île-de-France,5849085
+303,male,2017,Auvergne-Rhône-Alpes,3864693
+304,male,2017,Bourgogne-Franche-Comté,1368725
+305,male,2017,Bretagne,1612426
+306,male,2017,Centre-Val-de-Loire,1248917
+307,male,2017,Corse,162936
+308,male,2017,DOM,1010431
+309,male,2017,France métropolitaine,31286829
+310,male,2017,France métropolitaine et DOM,32297260
+311,male,2017,Grand Est,2705718
+312,male,2017,Guadeloupe ,179005
+313,male,2017,Guyane,132016
+314,male,2017,Hauts-de-France,2910577
+315,male,2017,La Réunion,408957
+316,male,2017,Martinique ,171234
+317,male,2017,Mayotte,119219
+318,male,2017,Normandie,1610041
+319,male,2017,Nouvelle-Aquitaine,2868828
+320,male,2017,Occitanie,2823736
+321,male,2017,Pays de la Loire,1829677
+322,male,2017,Provence-Alpes-Côte d'Azur,2405990
+323,male,2017,Île-de-France,5874565

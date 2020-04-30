@@ -12,6 +12,12 @@ FRENCH ELECTION :
 
 - french presidential election 2002-2017 by circonscription/or region : https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
 
+GENERAL INFO ABOUT REGIONS/DEPARTMENTS :
+
+- https://www.regions-et-departements.fr/regions-francaises
+- http://www.cartesfrance.fr/carte-france-departement/carte-france-departements.html
+
+
 
 
 
