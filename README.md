@@ -18,8 +18,7 @@ You can find the report for our Milestone 1 [here](./Milestone-reports/milestone
 
 ## Milestone 2 (Friday 1st May, 5pm)
 
-You can find the report for our Milestone 2 [here](./Milestone-reports/milestone2.md). </br>
-And the website skeleton in the following [link](https://jeremybensoussan.github.io/).
+You can find the report and initial website for our Milestone 2 [here](./Milestone-reports/milestone2.md).
 
 **10% of the final grade**
 
