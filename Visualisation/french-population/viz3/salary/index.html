@@ -20,7 +20,7 @@ body {
 #chart {
   width: 100%;
   height: 100%;
-  min-width: 300px;
+  min-width: 600px;
   min-height: 300px;
   position: absolute;
 }
@@ -62,10 +62,14 @@ body {
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
+
+
 var margin = {top: 40, right:40, bottom: 40, left: 100},
     dim = Math.min(parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height"))),
     width = dim - margin.left - margin.right,
     height = dim - margin.top - margin.bottom;
+
+console.log(dim);
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -157,9 +161,9 @@ d3.csv("salary-contribution.csv", function(error, data) {
 
 function resize() {
 
-  var dim = Math.min(parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height"))),
-  width = dim - margin.left - margin.right,
-  height = dim - margin.top - margin.bottom;
+  //var dim = parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height")),
+  width = parseInt(d3.select("#chart").style("width")) - margin.left - margin.right,
+  height = parseInt(d3.select("#chart").style("height")) - margin.top - margin.bottom;
 
   console.log(dim);
 
