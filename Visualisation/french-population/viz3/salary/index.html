@@ -81,7 +81,7 @@ var r = d3.scale.linear()
     .range([7, 18]);
 
 var color = d3.scale.ordinal()
-      .range(["#00ad11","#1518cf", "#ad004b"]);
+      .range(["#035aa6","#40bad5", "#120136"]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -109,18 +109,18 @@ var tip = d3.tip()
 
 svg.call(tip);
 
-d3.csv("salary-contribution.csv", function(error, data) {
+d3.csv("salary2.csv", function(error, data) {
   if (error) throw error;
 
   var subset = data.filter(function(el){return el.Metric === 'Salary'});
 
   subset.forEach(function(d) {
-    d.Votants = +d.Votants;
+    d.participation = +d.participation;
     d.socialcontribution = +d.socialcontribution;
     d.Total = +d.Total;
   });
 
-  x.domain([0, 1400000]);
+  x.domain([0, 60]);
   y.domain([0, 3500]);
   r.domain(d3.extent (subset, function (d)  {return d.Total;}));
 
@@ -133,7 +133,7 @@ d3.csv("salary-contribution.csv", function(error, data) {
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Number of Voters");
+      .text("Voting Participation (%)");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -151,7 +151,7 @@ d3.csv("salary-contribution.csv", function(error, data) {
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", function(d) {return r(d.Total)})
-      .attr("cx", function(d) { return x(d.Votants); })
+      .attr("cx", function(d) { return x(d.participation); })
       .attr("cy", function(d) { return y(d.socialcontribution); })
       .style("fill", function(d) { return color(d.election); })
       .on('mouseover', tip.show)
@@ -191,7 +191,7 @@ function resize() {
 
   svg.selectAll('.dot')
     .attr("r", function(d) {return r(d.Total)})
-    .attr("cx", function(d) { return x(d.Votants); })
+    .attr("cx", function(d) { return x(d.participation); })
     .attr("cy", function(d) { return y(d.socialcontribution); })
 }
 
