@@ -58,6 +58,7 @@ body {
 <body>
 
 <svg id="chart"></svg>
+<select id="selectButton"></select>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
@@ -97,6 +98,13 @@ var svg = d3.select("#chart")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+svg.append("circle").attr("cx",1100).attr("cy",30).attr("r", 6).style("fill", "#120136")
+svg.append("circle").attr("cx",1100).attr("cy",60).attr("r", 6).style("fill", "#40bad5")
+svg.append("circle").attr("cx",1100).attr("cy",90).attr("r", 6).style("fill", "#035aa6")
+svg.append("text").attr("x", 1120).attr("y", 30).text("Cantonale").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 1120).attr("y", 60).text("Presidential").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 1120).attr("y", 90).text("Legislative").style("font-size", "15px").attr("alignment-baseline","middle")
+
 var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-10, 0])
@@ -104,7 +112,7 @@ var tip = d3.tip()
       return "<div><span>Election:</span> <span style='color:white'>" + d.election + "</span></div>" +
               "<div><span>Region:</span> <span style='color:white'>" + d.region + "</span></div>" +
               "<div><span>Year:</span> <span style='color:white'>" + d.year + "</span></div>"+
-             "<div><span>Population:</span> <span style='color:white'>" + d.Total + "</span></div>";
+             "<div><span>Participation (%):</span> <span style='color:white'>" + d.participation + "</span></div>";
     })
 
 svg.call(tip);
@@ -113,16 +121,25 @@ d3.csv("salary2.csv", function(error, data) {
   if (error) throw error;
 
   var subset = data.filter(function(el){return el.Metric === 'Salary'});
+  var allGroup = d3.map(subset, function(d){return(d.year)}).keys()
+
+  d3.select("#selectButton")
+      .selectAll('myOptions')
+     	.data(allGroup)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .attr("value", function (d) { return d; })
 
   subset.forEach(function(d) {
     d.participation = +d.participation;
-    d.socialcontribution = +d.socialcontribution;
-    d.Total = +d.Total;
+    d.grosssalary = +d.grosssalary;
+    d.participation = +d.participation;
   });
 
-  x.domain([0, 60]);
-  y.domain([0, 3500]);
-  r.domain(d3.extent (subset, function (d)  {return d.Total;}));
+  x.domain([6000, 28000]);
+  y.domain([0, 60]);
+  r.domain(d3.extent (subset, function (d)  {return d.participation;}));
 
   svg.append("g")
       .attr("class", "x axis")
@@ -133,7 +150,7 @@ d3.csv("salary2.csv", function(error, data) {
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Voting Participation (%)");
+      .text("Gross Salary (in €)");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -144,18 +161,77 @@ d3.csv("salary2.csv", function(error, data) {
       .attr("y", -50)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Social Contribution (in euros)")
+      .text("Voting Participation (in %)")
 
   svg.selectAll(".dot")
       .data(subset)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", function(d) {return r(d.Total)})
-      .attr("cx", function(d) { return x(d.participation); })
-      .attr("cy", function(d) { return y(d.socialcontribution); })
+      .attr("r", function(d) {return r(d.participation)})
+      .attr("cx", function(d) { return x(d.grosssalary); })
+      .attr("cy", function(d) { return y(d.participation); })
       .style("fill", function(d) { return color(d.election); })
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
+
+  // A function that update the chart
+  function update(selectedGroup) {
+
+    // Create new data with the selection?
+    var dataFilter = subset.filter(function(d){return d.year==selectedGroup})
+
+    dataFilter.forEach(function(d) {
+      d.participation = +d.participation;
+      d.grosssalary = +d.grosssalary;
+      d.participation = +d.participation;
+    });
+
+    x.domain([6000, 28000]);
+    y.domain([0, 60]);
+    r.domain(d3.extent (dataFilter, function (d)  {return d.participation;}));
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+      .append("text")
+        .attr("class", "label")
+        .attr("x", width)
+        .attr("y", -6)
+        .style("text-anchor", "end")
+        .text("Gross Salary (in €)");
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+      .append("text")
+        .attr("class", "label")
+        .attr("transform", "rotate(-90)")
+        .attr("y", -50)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Voting Participation (in %)")
+
+    svg.selectAll(".dot")
+        .data(dataFilter)
+      .enter().append("circle")
+        .attr("class", "dot")
+        .attr("r", function(d) {return r(d.participation)})
+        .attr("cx", function(d) { return x(d.grosssalary); })
+        .attr("cy", function(d) { return y(d.participation); })
+        .style("fill", function(d) { return color(d.election); })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
+
+    }
+
+  // When the button is changed, run the updateChart function
+  d3.select("#selectButton").on("change", function(d) {
+      // recover the option that has been chosen
+      var selectedOption = d3.select(this).property("value")
+      // run the updateChart function with this selected option
+      update(selectedOption)
+  })
 
 });
 
@@ -190,9 +266,9 @@ function resize() {
   r.range([dim / 90, dim / 35])
 
   svg.selectAll('.dot')
-    .attr("r", function(d) {return r(d.Total)})
-    .attr("cx", function(d) { return x(d.participation); })
-    .attr("cy", function(d) { return y(d.socialcontribution); })
+    .attr("r", function(d) {return r(d.participation)})
+    .attr("cx", function(d) { return x(d.grosssalary); })
+    .attr("cy", function(d) { return y(d.participation); })
 }
 
 d3.select(window).on('resize', resize);
