@@ -1,3 +1,0 @@
-- faire une annee en selectionnable
-- mettre % abstention au lieu de voting
-- mettre une box autour des prinicipaux clusters
