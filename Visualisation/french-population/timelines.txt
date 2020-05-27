@@ -1,5 +1,0 @@
-https://www.w3schools.com/howto/howto_css_timeline.asp
-https://webdesign.tutsplus.com/fr/tutorials/building-a-horizontal-timeline-with-css-and-javascript--cms-28378
-https://www.cssscript.com/responsive-timeline-slider-javascript-css/
-https://codepen.io/chris-creditdesign/pen/yuFjr
-
