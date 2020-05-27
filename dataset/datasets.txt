@@ -1,0 +1,29 @@
+FRENCH POPULATION : 
+
+Analysis of the evolution of the french population based on different factors : 
+_ Population Count per region between 1990-2020 : https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/regions-departements/
+_ Gender and Age per department/region between 1975-2020 : https://www.insee.fr/fr/statistiques/1893198
+_ Revenue/Taxes per region between 1994-2015 : https://www.insee.fr/fr/statistiques/2043717#consulter
+_ Taxes based on revenue (per region or per commmune) 2004-2018 : https://www.data.gouv.fr/fr/datasets/l-impot-sur-le-revenu-par-collectivite-territoriale/#_
+
+
+FRENCH ELECTION : 
+
+- Presidential elections 2002-2017 by circonscription or region : https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
+- Presidential elections between 1965-2012 by department : https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/
+- Legislative elections between 1958-2012 by department : https://www.data.gouv.fr/fr/datasets/elections-legislatives-1958-2012/
+- Cantonal elections between 1988-2011 by department : https://www.data.gouv.fr/fr/datasets/elections-cantonales-1988-2011/
+
+
+GENERAL INFO ABOUT REGIONS/DEPARTMENTS :
+
+- https://www.regions-et-departements.fr/regions-francaises
+- http://www.cartesfrance.fr/carte-france-departement/carte-france-departements.html
+
+
+
+
+
+
+
+
