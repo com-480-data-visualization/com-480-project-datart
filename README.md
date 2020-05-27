@@ -23,8 +23,8 @@ You can find the report and initial website for our Milestone 2 [here](./Milesto
 **10% of the final grade**
 
 
-
-
 ## Milestone 3 (Thursday 28th May, 5pm)
+
+You can find the README (and complementary information) for our Milestone 3 [here](./Milestone-reports/milestone3.md).
 
 **80% of the final grade**
