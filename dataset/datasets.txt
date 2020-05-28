@@ -9,10 +9,10 @@ _ Taxes based on revenue (per region or per commmune) 2004-2018 : https://www.da
 
 FRENCH ELECTION : 
 
-- Presidential elections 2002-2017 by circonscription or region : https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
-- Presidential elections between 1965-2012 by department : https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/
-- Legislative elections between 1958-2012 by department : https://www.data.gouv.fr/fr/datasets/elections-legislatives-1958-2012/
-- Cantonal elections between 1988-2011 by department : https://www.data.gouv.fr/fr/datasets/elections-cantonales-1988-2011/
+- Presidential elections 2002-2017 per circonscription or region : https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
+- Presidential elections between 1965-2012 per department : https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/
+- Legislative elections between 1958-2012 per department : https://www.data.gouv.fr/fr/datasets/elections-legislatives-1958-2012/
+- Cantonal elections between 1988-2011 per department : https://www.data.gouv.fr/fr/datasets/elections-cantonales-1988-2011/
 
 
 GENERAL INFO ABOUT REGIONS/DEPARTMENTS :
