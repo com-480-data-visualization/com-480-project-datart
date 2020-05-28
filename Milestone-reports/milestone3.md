@@ -6,7 +6,7 @@ In this milestone report, you will find our final project's results, and natural
 
 ## Process Book
 
-You will our process book in the following [pdf file](./Process_Book_Datart.pdf)
+You will our process book in the following [pdf file](./Process_Book_Datart.pdf).
 
 ## Website and Data Story (Screencast)
 
