@@ -25,6 +25,6 @@ You can find the report and initial website for our Milestone 2 [here](./Milesto
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-You can find the README (and complementary information) for our Milestone 3 [here](./Milestone-reports/milestone3.md).
+You can find all the information and deliverables for our Milestone 3 [here](./Milestone-reports/milestone3.md).
 
 **80% of the final grade**

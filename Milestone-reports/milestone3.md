@@ -6,12 +6,13 @@ In this milestone report, you will find our final project's results, and natural
 
 ## Process Book
 
-You will our process book in the following [pdf file]()
+You will our process book in the following [pdf file](./Process_Book_Datart.pdf)
 
 ## Website and Data Story (Screencast)
 
-You will find our website in the following [link](https://jeremybensoussan.github.io/). </br>
-On the website, you can find our screencast by clicking on the youtube button. Alternatively, you can find it [here](https://www.youtube.com/watch?v=2FKD2b4SrLc).
+You will find our website in the following [link](https://jeremybensoussan.github.io/). 
+
+On the website, you can find our screencast by clicking on the **youtube** button.</br> Alternatively, you can find it [here](https://www.youtube.com/watch?v=2FKD2b4SrLc).
 
 ## Project Architecture
 
